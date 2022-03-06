@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&display=swap');
+
+:root {
+    --dark-color: #191919;
+    --white-color: #FFFFFF;
+    --Red-color: #A40101;
+    --blue-color: #2CA3AB;
+    --gray-color: #C4C4C4;
+    --Orange-color: #F3610E;
+    --darkBlue-color: #1D1B45;
+    --Poppins-font:'Poppins', sans-serif;
+    --prueba-font:'BhuTuka Expanded One', cursive;
+}
+
+
+#login {
+    background-image: url(../img/10.png);
+}
+
+
+
+
