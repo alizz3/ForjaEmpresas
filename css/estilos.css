@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
 
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: var(--Poppins-font);
+
+}
 :root {
     --dark-color: #191919;
     --white-color: #FFFFFF;
@@ -8,10 +14,118 @@
     --gray-color: #C4C4C4;
     --Orange-color: #F3610E;
     --DarkOrange-color: #CA5714;
+    --blueinputs-color:#E9F6F7;
+    --LightBlue-color:#A8DDE0;
     --darkBlue-color: #161624;
-    --Bluebuttoms-color:#1D1B45;
+    --Bluebuttoms-color: #1D1B45;
     --Poppins-font: 'Poppins', sans-serif;
 }
+
+
+/*css for login.html*/
+
+#login {
+    background-image: url(../img/10.png);
+    background-size: cover;
+    background-position-x: -200px  80;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 97%;
+    width: 98%;
+    position: absolute;
+}
+
+#container-login{
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+}
+
+.button-login-vol{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.log-login{
+    height: 900%;
+}
+
+.forja-login{
+    background-color:var(--LightBlue-color);
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+}
+
+.forja-login h2 {
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: larger;
+}
+
+.datos-login{
+    background-color: var(--white-color);
+    border-radius: 0 0 10px 10px;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 50%;
+}
+
+.login-group{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-group input{
+    background-color: var(--blueinputs-color);
+    margin-top: 5px;
+    border-radius: 19px;
+    height: 30px;
+    border: 2px solid var(--LightBlue-color);
+}
+
+.button-login-ing{
+    text-align: center;
+}
+
+.button-log-volver, .button-log-ingresar{
+    font-family: var(--Poppins-font);
+    color: var(--white-color);
+    border: var(--blue-color) 2px solid;
+    border-radius: 7px;
+    text-decoration: none;
+}
+
+.button-log-volver{
+    background-color: var(--Bluebuttoms-color);
+    margin-bottom: 10px;
+    padding: 5px 10px 5px 10px;
+}
+
+.button-log-ingresar{
+    background-color: var(--DarkOrange-color);
+    padding: 5px 40px 5px 40px;
+}
+
+.forgot, .login-label{
+    color: var(--dark-color);
+    font-weight: 500;
+}
+
+
+
+/*css for Dashboard.html*/
 
 #dashboard {
     height: 100%;
@@ -45,7 +159,7 @@
 
 .logo-menu-db img {
     max-width: 200px;
-    
+
 }
 
 .container-buttons-db {
@@ -67,10 +181,10 @@
     text-align: center;
     font-family: var(--Poppins-font);
     font-weight: 600;
-    
+
 }
 
-.buttons--db a{
+.buttons--db a {
     background-color: var(--gray-color);
     border: var(--DarkOrange-color) solid 4px;
     border-radius: 9px;
@@ -91,16 +205,13 @@
     float: right;
     width: 80%;
     height: 100%;
-    
-    
-    
-    background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.658)), url(../img/13.\ guerreros.png);
+
+
+
+    background-image: linear-gradient(rgba(255, 255, 255, 0.658), rgba(255, 255, 255, 0.658)), url(../img/13.\ guerreros.png);
     background-repeat: no-repeat;
-    background-position-y: bottom ;
+    background-position-y: bottom;
     background-position-x: 95%;
-    
-    
-    
 }
 
 
@@ -191,14 +302,6 @@
     border-radius: 9px;
     margin-right: 4px;
 }
-
-
-#login {
-    background-image: url(../img/10.png);
-}
-
-
-
 
 /*Barra forja*/
 .footer-db {
