@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&display=swap');
 
 :root {
     --dark-color: #191919;
@@ -8,59 +7,110 @@
     --blue-color: #2CA3AB;
     --gray-color: #C4C4C4;
     --Orange-color: #F3610E;
-    --DarkOrange-color:#CA5714;
-    --darkBlue-color: #1D1B45;
-    --Poppins-font:'Poppins', sans-serif;
-    --prueba-font:'BhuTuka Expanded One', cursive;
+    --DarkOrange-color: #CA5714;
+    --darkBlue-color: #161624;
+    --Bluebuttoms-color:#1D1B45;
+    --Poppins-font: 'Poppins', sans-serif;
 }
 
-/*#bienvenidos{
-    background-image: url(../img/13.\ guerreros.png);
-    background-repeat: no-repeat;
-    background-position: 100%;
+#dashboard {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
 
-}*/
 
 /*lado izquierdo*/
 
-#menu{
+#menu {
     float: left;
+
+
     width: 20%;
-    max-height: 100vh;
     /*border: 1px solid #2CA3AB;*/
     background-color: var(--darkBlue-color);
+
+
+    height: 100%;
+    position: absolute;
+
+
 }
 
-.logo-menu-db{
+.logo-menu-db {
     text-align: center;
+    position: relative;
+    top: 16%;
 }
 
-.logo-menu-db img{
+.logo-menu-db img {
     max-width: 200px;
+    
 }
 
-.buttons--db{
+.container-buttons-db {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    height: 100px;
     text-align: center;
+    position: relative;
+    top: 40%;
 }
 
+.buttons--db {
+    text-align: center;
+    font-family: var(--Poppins-font);
+    font-weight: 600;
+    
+}
 
+.buttons--db a{
+    background-color: var(--gray-color);
+    border: var(--DarkOrange-color) solid 4px;
+    border-radius: 9px;
+    color: var(--dark-color);
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
 
+}
 
 /*lado derecho*/
 
-#bienvenidos{
+#bienvenidos {
+    position: absolute;
+    right: 0px;
     float: right;
     width: 80%;
-    /*border: 1px solid #A40101;*/
+    height: 100%;
+    
+    
+    
+    background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.658)), url(../img/13.\ guerreros.png);
+    background-repeat: no-repeat;
+    background-position-y: bottom ;
+    background-position-x: 95%;
+    
+    
+    
 }
 
-    /*usuario*/
-.container-button-user-db{
+
+/*usuario*/
+.container-button-user-db {
     display: flex;
     justify-content: end;
 }
 
-.button-user-db{
+.button-user-db {
     display: flex;
     align-items: center;
     max-width: 33%;
@@ -70,33 +120,32 @@
     margin: 5px 6px 0px 0px;
 }
 
-.button-user-db a{
+.button-user-db a {
     border-radius: 200px;
     padding: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
-    color:var(--dark-color);
-    border:  5px solid var(--Orange-color);
+    color: var(--dark-color);
+    border: 5px solid var(--Orange-color);
     background-color: var(--white-color);
     cursor: hand;
     margin: 10px 10px 10px 10px;
 }
 
-.button-user-db h4{
+.button-user-db h4 {
     font-family: var(--Poppins-font);
     font-weight: 100;
     margin: 0px 15px 0px 0px;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 10px;
 }
 
 /*titulo Bienvenidos*/
 
-.text-bienve-db h1{
-    color: var(--DarkOrange-color);    
+.text-bienve-db h1 {
+    color: var(--DarkOrange-color);
     text-align: center;
     font-family: var(--Poppins-font);
     font-weight: 600;
@@ -106,25 +155,42 @@
 
 /*Digite documento*/
 
-.digite{
+.container-digite {
     display: flex;
     justify-content: center;
-    border-bottom: #1D1B45 solid 5px;
-    width: 50%;
-    
-    
+    align-items: center;
+}
+
+.digite {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 6px;
+
     margin-bottom: 20px;
     /*border: #df6704 solid 10px;*/
 }
 
-#digite{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: #df6704 solid 10px;
+.digite-input {
+    width: 300px;
+    margin-right: 10px;
+    padding-bottom: 5px;
+    border: 0;
+    border-bottom: 2px solid var(--Bluebuttoms-color);
 }
 
+::placeholder {
+    font-family: var(--Poppins-font);
+}
 
+.botones-db a {
+    color: var(--white-color);
+    background-color: var(--Bluebuttoms-color);
+    border: var(--blue-color) 3px solid;
+    padding: 4px 10px 4px 10px;
+    border-radius: 9px;
+    margin-right: 4px;
+}
 
 
 #login {
@@ -134,3 +200,10 @@
 
 
 
+/*Barra forja*/
+.footer-db {
+    position: fixed;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+}
