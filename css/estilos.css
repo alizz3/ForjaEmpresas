@@ -8,10 +8,123 @@
     --blue-color: #2CA3AB;
     --gray-color: #C4C4C4;
     --Orange-color: #F3610E;
+    --DarkOrange-color:#CA5714;
     --darkBlue-color: #1D1B45;
     --Poppins-font:'Poppins', sans-serif;
     --prueba-font:'BhuTuka Expanded One', cursive;
 }
+
+/*#bienvenidos{
+    background-image: url(../img/13.\ guerreros.png);
+    background-repeat: no-repeat;
+    background-position: 100%;
+
+}*/
+
+/*lado izquierdo*/
+
+#menu{
+    float: left;
+    width: 20%;
+    max-height: 100vh;
+    /*border: 1px solid #2CA3AB;*/
+    background-color: var(--darkBlue-color);
+}
+
+.logo-menu-db{
+    text-align: center;
+}
+
+.logo-menu-db img{
+    max-width: 200px;
+}
+
+.buttons--db{
+    text-align: center;
+}
+
+
+
+
+/*lado derecho*/
+
+#bienvenidos{
+    float: right;
+    width: 80%;
+    /*border: 1px solid #A40101;*/
+}
+
+    /*usuario*/
+.container-button-user-db{
+    display: flex;
+    justify-content: end;
+}
+
+.button-user-db{
+    display: flex;
+    align-items: center;
+    max-width: 33%;
+    min-width: 33px;
+    background-color: var(--gray-color);
+    border-radius: 19px;
+    margin: 5px 6px 0px 0px;
+}
+
+.button-user-db a{
+    border-radius: 200px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:var(--dark-color);
+    border:  5px solid var(--Orange-color);
+    background-color: var(--white-color);
+    cursor: hand;
+    margin: 10px 10px 10px 10px;
+}
+
+.button-user-db h4{
+    font-family: var(--Poppins-font);
+    font-weight: 100;
+    margin: 0px 15px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+}
+
+/*titulo Bienvenidos*/
+
+.text-bienve-db h1{
+    color: var(--DarkOrange-color);    
+    text-align: center;
+    font-family: var(--Poppins-font);
+    font-weight: 600;
+    margin: 50px 0px 70px 0px;
+}
+
+
+/*Digite documento*/
+
+.digite{
+    display: flex;
+    justify-content: center;
+    border-bottom: #1D1B45 solid 5px;
+    width: 50%;
+    
+    
+    margin-bottom: 20px;
+    /*border: #df6704 solid 10px;*/
+}
+
+#digite{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: #df6704 solid 10px;
+}
+
+
 
 
 #login {
