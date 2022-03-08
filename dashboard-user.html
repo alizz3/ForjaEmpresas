@@ -15,21 +15,104 @@
     <script src="https://kit.fontawesome.com/d4252d30df.js" crossorigin="anonymous"></script>
 </head>
 
-<body id="dashboard-user">
+<body id="dashboardd">
 
-    <div class="dashuser-container">
-        <div class="dashuser-logo">
-            <img src="img/0. logoforja.png" alt="">
+    <div id="dashboard-back">
+        <!-- lado izquierdo-->
+
+
+        <div id="menu">
+
+            <div class="logo-menu-db">
+                <a href="index.html"><img src="img/0. logoforja.png" alt="logo de forja"></a>
+            </div>
+
+            <div class="container-buttons-db">
+                <div class="buttons--db">
+                    <a href="" class="btn-Pacientes"><i class="fa-solid fa-users"></i>pacientes</a>
+                </div>
+
+                <div class="buttons--db">
+                    <a href="" class="btn-vacunacion"><i class="fa-solid fa-syringe"></i>vacunación</a>
+                </div>
+                <div class="buttons--db">
+                    <a href="" class="btn-cerrar-ses"><i class="fa-solid fa-power-off"></i>cerrar sesión</a>
+                </div>
+            </div>
+            
         </div>
-        <div class="dashuser-text">
-            <h2>Usuario no registrado, desea realizar registro?</h2>
+
+
+        <!-- lado derecho -->
+
+
+            <!-- Usuario -->
+
+        <div id="bienvenidos">
+
+            <div class="container-button-user-db">
+                <div class="button-user-db">
+                    <a href=""><i class="fa-solid fa-user" href="index.html"></i></a>
+                    <h4>Carolina Loaiza</h4>
+                </div>
+            </div>
+
+
+
+            <!-- titulo bienvenidos -->
+
+            <div class="text-bienve-db">
+                <h1>BIENVENIDOS</h1>
+            </div>
+
+            <!-- Digite documento -->
+
+            <div class="container-digite">
+                <section class="digite">
+                    <div class="digite-group">
+                        <label for="Documento" class="digite-label"></label>
+                        <input type="number" name="Documento" id="Documento" placeholder="ㅤDigite el numero de Documento" class="digite-input">
+                    </div>
+
+
+                    <div class="botones-db">
+                        <a href="dashboard-user.html" class="b-search-db"><i class="fa-solid fa-magnifying-glass"></i></a>
+                        <a href="" class="b-return-db"><i class="fa-solid fa-rotate-right"></i></a>
+                        
+                    </div>
+                </section>
+            </div>
+            
+            <!--Barra Forja-->
+            <div class="footer-db">
+            <img src="img/barra.jpeg" alt="" >
+            </div>
+
         </div>
-        <div class="dashuser-buttons">
-            <a href="" class="button-dashuser1">si, gracias!</a>
-            <a href="dashboard.html" class="button-dashuser2">Cancel</a>
-        </div>
+
+        
+    </div >
+
+    <div class="capa">
+
     </div>
 
+    
+        <div class="dashuser-container">
+            <div class="dashuser-logo">
+                <img src="img/0. logoforja.png" alt="">
+            </div>
+            <div class="dashuser-text">
+                <h2>Usuario no registrado, desea <br> realizar registro?</h2>
+            </div>
+            <div class="dashuser-buttons">
+                <a href="" class="button-dashuser1">si, gracias!</a>
+                <a href="dashboard.html" class="button-dashuser2">Cancel</a>
+            </div>
+        </div>
+    
+
+    
 </body>
 
 </html>
