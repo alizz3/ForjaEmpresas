@@ -559,3 +559,84 @@
     height: 50px;
     width: 100%;
 }
+
+
+
+
+
+/*css for Dashboard-user.html*/
+
+#dashboard-user{
+    background-image: url(../img/dashboard.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 97%;
+    width: 98%;
+    position: absolute;
+}
+
+.dashuser-container{
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+
+.dashuser-logo{
+    background-color: var(--white-color);
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 45%;
+}
+
+.dashuser-text {
+    background-color: var(--white-color);
+    text-align: center;
+    width: 100%;
+    height: 35%;
+}
+
+.dashuser-text h2{
+    font-weight: 400;
+}
+
+.dashuser-buttons{
+    display: flex;
+    background-color: var(--white-color);
+    width: 100%;
+    height: 20%;
+    justify-content: center;
+    border-radius:  0 0 10px 10px;
+}
+
+
+.button-dashuser1{
+    background-color: var(--DarkOrange-color);
+    padding: 5px 20px 5px 20px;
+    color: var(--white-color);
+    border: var(--blue-color) 2px solid;
+    border-radius: 7px;
+    text-decoration: none;
+    margin-bottom: 25px;
+    margin: 0 5px 25px 0;
+}
+
+.button-dashuser2{
+    background-color: var(--blueindexbutttoms-color);
+    padding: 5px 20px 5px 20px;
+    color: var(--white-color);
+    border: var(--blue-color) 2px solid;
+    border-radius: 7px;
+    text-decoration: none;
+    margin-bottom: 25px;
+    margin: 0 0 25px 5px;
+}
