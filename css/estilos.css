@@ -7,27 +7,281 @@
 
 }
 :root {
+    --black-color:#000000;
     --dark-color: #191919;
     --white-color: #FFFFFF;
     --Red-color: #A40101;
     --blue-color: #2CA3AB;
     --gray-color: #C4C4C4;
+    --DarkGray-color:#444444;
     --Orange-color: #F3610E;
     --DarkOrange-color: #CA5714;
     --blueinputs-color:#E9F6F7;
     --LightBlue-color:#A8DDE0;
     --darkBlue-color: #161624;
     --Bluebuttoms-color: #1D1B45;
+    --blueindexbutttoms-color:#0E5883;
     --Poppins-font: 'Poppins', sans-serif;
 }
+
+
+
+/*css for Index.html*/
+    
+    /*Heder index.html*/
+#heder-index{
+    border-top: 1rem solid var(--DarkGray-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heder-index-container{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+}
+
+.index-head-right{
+    width: 70%;
+    float: right;
+    display: flex;
+    flex-direction: column;
+}
+
+.index-head-top{
+    width: 80;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.head-phone, .head-ubication{
+    display: flex;
+    align-items: center;
+    margin: 10px 20px 10px 20px;
+    
+}
+
+.head-phone a, .head-ubication a{
+    color: var(--dark-color);
+    text-decoration: none;
+}
+
+.head-ubication{
+    margin: 10px 100px 10px 20px ;
+}
+
+.button-log-iniciar{
+    background-color: var(--blueindexbutttoms-color);
+    color: var(--white-color);
+    border-radius: 9px;
+    padding: 10px;
+    
+    text-decoration: none;
+}
+
+.index-head-bottom{
+    background-image: url(../img/1.\ linea.png);
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position-x: 100px;
+    background-position-y: 50%;
+    color: var(--DarkOrange-color);
+    height: 80px;
+    
+}
+
+.index-head-bottom img{
+    width: 50px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.index-head-left{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    float: left;
+    width: 30%;
+}
+
+    /*Banner*/
+.banner{
+    position: relative;
+    margin-bottom: 0px;
+}
+
+.banner img{
+    width: 100%;
+}
+
+.banner h2{
+    color: var(--Orange-color);
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.banner h1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 70px;
+    font-weight: 400;
+}
+
+.text-banner-index{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 25%; left: 80px;
+}
+
+#barra-forja{
+    margin-top: -4px;
+    margin-bottom: -4px;
+    width: 100%;
+}
+
+/*articulos*/
+        /*contenedor*/
+#information-index{
+    background-image: url(../img/covid-backgroung.png);
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position-x: -1px  ;
+    background-position-y: -180px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;    
+}
+
+.tittle-information-1, .tittle-information-2{
+    display: flex;
+    align-items: center;
+    color: var(--blueindexbutttoms-color);
+}
+
+.tittle-information-1 h2, .tittle-information-2 h2{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.tittle-information-1{
+    margin-bottom: 0px;
+}
+
+.tittle-information-1 img{
+    width: 50px;
+}
+
+.tittle-information-2 img{
+    width: 60px;
+    padding-bottom: 10;
+}
+
+        /*izquierda*/
+.information-left{
+    width: 50%;
+    height: 294px;
+    float: left;
+    display: flex;
+    justify-content: center;
+}
+
+.sintomas-index {
+    display: flex;
+    justify-content: center;
+    font-size: 19px;
+}
+
+.sintomas-index ul{
+    list-style-image: url(../img/6.\ check.svg);
+    font-weight: 200;
+    
+}
+
+        /*Derecha*/
+.information-right{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    float: right;
+}
+
+.hacer-index p{
+    font-size: 19px;
+    font-weight: 200;
+    margin-top: 10px;
+}
+
+.article-2{
+    width: 66%;
+}
+
+.oms-curso{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.oms-curso img{
+    width: 100px;
+}
+
+.oms-curso a{
+    text-decoration: none;
+    color: var(--blueindexbutttoms-color);
+    font-weight: 500;
+    margin-bottom: 10px
+}
+
+/*other information*/
+#other-information-index{
+    display: flex;
+    flex-direction: column;
+}
+
+.other-information-1, .other-information-2, .other-information-3, .other-information-4, .other-information-5{
+    text-decoration: none;
+    background-color: var(--darkBlue-color);
+    color: var(--white-color);
+    width: 100%;    
+    padding: 10px 0 10px 5px;
+}
+
+.other-information-2, .other-information-3, .other-information-4, .other-information-5{
+    border-top: var(--DarkGray-color) solid 10px;
+}
+
+/*footer*/
+#footer-index{
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 30px 0px;
+    background-color: var(--black-color);
+    
+}
+
+#footer-index h6{
+    color: var(--white-color);
+    font-weight: 300;
+}
+
+
+
 
 
 /*css for login.html*/
 
 #login {
     background-image: url(../img/10.png);
-    background-size: cover;
-    background-position-x: -200px  80;
+    background-size: 120%;
+    background-position-x: -120px  ;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -125,6 +379,8 @@
 
 
 
+
+
 /*css for Dashboard.html*/
 
 #dashboard {
@@ -133,9 +389,7 @@
     margin: 0;
 }
 
-
 /*lado izquierdo*/
-
 #menu {
     float: left;
 
@@ -198,7 +452,6 @@
 }
 
 /*lado derecho*/
-
 #bienvenidos {
     position: absolute;
     right: 0px;
@@ -213,7 +466,6 @@
     background-position-y: bottom;
     background-position-x: 95%;
 }
-
 
 /*usuario*/
 .container-button-user-db {
@@ -254,7 +506,6 @@
 }
 
 /*titulo Bienvenidos*/
-
 .text-bienve-db h1 {
     color: var(--DarkOrange-color);
     text-align: center;
@@ -263,9 +514,7 @@
     margin: 50px 0px 70px 0px;
 }
 
-
 /*Digite documento*/
-
 .container-digite {
     display: flex;
     justify-content: center;
