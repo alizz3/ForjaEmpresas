@@ -14,8 +14,10 @@
     --blue-color: #2CA3AB;
     --gray-color: #C4C4C4;
     --DarkGray-color:#444444;
+    --GrayDark--color:#212529;
     --Orange-color: #F3610E;
     --DarkOrange-color: #CA5714;
+    --backgroundTable-color:#CCCECF;
     --blueinputs-color:#E9F6F7;
     --LightBlue-color:#A8DDE0;
     --darkBlue-color: #161624;
@@ -250,7 +252,6 @@
     text-decoration: none;
     background-color: var(--darkBlue-color);
     color: var(--white-color);
-    width: 100%;    
     padding: 10px 0 10px 5px;
 }
 
@@ -259,7 +260,7 @@
 }
 
 /*footer*/
-#footer-index{
+#footer{
     display: flex;
     justify-content: center;
     padding: 10px 0 30px 0px;
@@ -267,7 +268,7 @@
     
 }
 
-#footer-index h6{
+#footer h6{
     color: var(--white-color);
     font-weight: 300;
 }
@@ -651,8 +652,6 @@
     justify-content: center;
 }
 
-
-
 .capa{
     position: absolute;
     width: 100%;
@@ -660,3 +659,143 @@
     background-color: #00000065;
 }
 
+
+
+
+
+/*css for pacientes.html*/
+#heder-pacientes-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--GrayDark--color);
+    padding: 10px;
+}
+
+.logo-heder-pacientes- img{
+    height: 50px;
+}
+
+#main-pacientes-container{
+    height: 74%;
+}
+
+.footer-pacientes h6{
+    margin-bottom: 1px;
+}
+
+.buttons-heder-pacientes i{
+    font-size: 20px;
+    padding: 10px 9px;
+    margin: 5px;
+    border-radius: 30px;
+    color: var(--black-color);
+    background-color: var(--backgroundTable-color);
+    border: var(--blue-color) solid 3px;
+
+}
+
+.buttons-heder-pacientes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#main-pacientes-container{
+    width: 80%;
+    height: 72vh;
+    margin-left: 5%;
+}
+
+.left-button-pacientes{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 0 10px 0;
+}
+
+.button-pacientes1{
+    background-color: var(--DarkOrange-color);
+    padding: 10px ;
+    color: var(--white-color);
+    border-radius: 7px;
+    text-decoration: none;
+}
+
+.button-pacientes2{
+    background-color: var(--Bluebuttoms-color);
+    border: var(--blue-color) solid 1px;
+    padding: 5px ;
+    color: var(--white-color);
+    border-radius: 7px;
+    text-decoration: none;
+    margin-right: 1px;
+    
+}
+
+.n-doc{
+    border: var(--blue-color) solid 2px;
+    width: 212px;
+}
+
+.text-main-pacientes{
+    color: var(--Bluebuttoms-color);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 20px 0 50px 0;
+}
+
+.text-main-pacientes-h2{
+    border-bottom: var(--blueindexbutttoms-color) solid 2px;
+}
+
+.table-main-pacientes {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 300;
+    color: var(--black-color);
+    width: 100%;
+    border: var(--blue-color) 1px;
+    border-collapse: collapse;
+}
+
+.table-main-pacientes th {
+    text-align: center;
+    color: white;
+    font-weight: 300;
+    background-color: #1D1B45;
+    padding: 8px;
+    border: var(--blue-color) solid 3px;
+}
+
+.table-main-pacientes tr {
+    background-color: var(--backgroundTable-color);
+}
+
+.table-main-pacientes td {
+    padding: 9px;
+    border: var(--blue-color) solid 2px;
+}
+
+.table-main-pacientes tr:hover {
+    background-color: #dbdbdb;
+}
+
+.but-pacientes1, .but-pacientes2{
+    padding: 5px ;
+    color: var(--white-color);
+    border-radius: 7px;
+    text-decoration: none;
+    font-size: 15px;
+
+}
+
+.but-pacientes1{
+    background-color: var(--blue-color);
+}
+
+.but-pacientes2{
+    background-color: var(--Red-color);
+}
