@@ -806,6 +806,7 @@
 
 .but-pacientes1{
     background-color: var(--blue-color);
+    color: var(--black-color);
 }
 
 .but-pacientes2{
@@ -876,14 +877,14 @@
 }
 
 .datos-paciente-form input, select{
-    width: 48%;
+    width: 47%;
     height:  30px;
     margin: 10px;
 
 }
 
 .datos-paciente-form select{
-    width: 48.35%;
+    width: 47.35%;
     height:  30px;
 }
 
@@ -923,13 +924,13 @@
 }
 
 .informacion-contacto-form input, select{
-    width: 48%;
+    width: 47%;
     height:  30px;
     margin: 10px;
 }
 
 .informacion-contacto-form select{
-    width: 48.35%;
+    width: 47.35%;
     height:  30px;
 }
 
@@ -982,3 +983,6 @@
     justify-content: center;
 }
 
+.videoprueba{
+    width: 100%;
+}
