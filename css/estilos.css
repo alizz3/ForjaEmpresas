@@ -52,7 +52,6 @@
 
 .index-head-right{
     width: 100%;
-    float: right;
     display: flex;
     flex-direction: column;
 }
@@ -60,26 +59,31 @@
 .index-head-top{
     width: 100%;
     display: flex;
-    align-items: center;
-    justify-content: flex-end;
+    justify-content: space-between;
 }
 
 .head-phone, .head-ubication{
     display: flex;
-    align-items: center;
-    /*margin: 10px 10px 10px 20px;*/
-    
+    align-items: center;    
 }
 
 .head-phone a, .head-ubication a{
     color: var(--dark-color);
     text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.head-phone{
+    width: 65%;
+}
+
+.head-phone a{
+    font-size:14px;
 }
 
 .head-ubication{
-    /*margin: 10px 10px 10px 20px ;*/
+    width: 135%;
 }
-
 
 .button-log-iniciar, .button-log-mobile, .button-log-iniciar-tablet{
     background-color: var(--blueindexbutttoms-color);
@@ -100,15 +104,13 @@
     display: none;
 }
 
-.button-index-head {
-    margin-left: 100px;
-}
+
 
 .index-head-bottom{
     background-image: url(../img/1.\ linea.png);
     background-size: 90%;
     background-repeat: no-repeat;
-    background-position-x: 100px;
+    background-position-x: 80px;
     background-position-y: 50%;
     color: var(--DarkOrange-color);
     height: 80px;
@@ -118,8 +120,16 @@
 .index-head-bottom img{
     width: 50px;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
+    justify-content: center;
 }
+
+.index-head-bottom {
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+}
+
 
 .index-head-left{
     margin-top: 5%;
@@ -134,6 +144,17 @@
     width: 250px;
 }
 
+.head-ubication {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.head-phone{
+    display: flex;
+    justify-content: center;
+    width: 60%;
+}
 
 
 
@@ -323,7 +344,32 @@
     .logo-head{
         width: 300px;
     }
+    
+    .button-index-head{
+        display: none;
+    }
+
+    .index-head-top{
+        background-color: red;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .button-index-head{
+        display: none;
+    }
+
+    .button-index-head{
+        display: none;
+    }
+
+    
 }
+
+
+
+
 
 /*responsive pc*/
 @media screen and (min-width: 1023px) {
@@ -351,9 +397,7 @@
     
     .head-phone, .head-ubication{
         display: flex;
-        align-items: center;
-        margin: 10px 10px 10px 20px;
-        
+        align-items: center;        
     }
     
     .head-phone a, .head-ubication a{
@@ -361,9 +405,7 @@
         text-decoration: none;
     }
     
-    .head-ubication{
-        margin: 10px 10px 10px 20px ;
-    }
+    
     
     .button-log-iniciar{
         background-color: var(--blueindexbutttoms-color);
@@ -372,6 +414,11 @@
         padding: 10px;
         display: initial;
         text-decoration: none;
+    }
+
+    .button-index-head{
+        display: initial;
+
     }
 
     .button-log-mobile{
@@ -410,6 +457,7 @@
         float: left;
         width: 30%;
     }
+    
     
 }
 
