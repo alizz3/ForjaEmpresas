@@ -118,12 +118,16 @@
 }
 
 .index-head-left{
-    margin-top: 1%;
+    margin-top: 5%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     float: left;
     width: 95%;
+}
+
+.logo-head{
+    width: 50%;
 }
 
     /*Banner*/
