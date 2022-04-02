@@ -42,8 +42,11 @@
 
 .heder-index-container{
     display: flex;
+    flex-direction: column;
+
     justify-content: center;
-    width: 90%;
+    width: 100%;
+    background-color: #A40101;
 }
 
 .index-head-right{
@@ -278,6 +281,36 @@
     color: var(--white-color);
     font-weight: 300;
 }
+
+
+
+@media screen and (min-width: 768px) {
+    .heder-index-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 90%;
+        background-color: #6301a400;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
