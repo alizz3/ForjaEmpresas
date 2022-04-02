@@ -43,21 +43,22 @@
 .heder-index-container{
     display: flex;
     flex-direction: column;
-
+    align-items: center;
     justify-content: center;
     width: 100%;
     background-color: #A40101;
+
 }
 
 .index-head-right{
-    width: 70%;
+    width: 100%;
     float: right;
     display: flex;
     flex-direction: column;
 }
 
 .index-head-top{
-    width: 80;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -66,7 +67,7 @@
 .head-phone, .head-ubication{
     display: flex;
     align-items: center;
-    margin: 10px 10px 10px 20px;
+    /*margin: 10px 10px 10px 20px;*/
     
 }
 
@@ -76,16 +77,20 @@
 }
 
 .head-ubication{
-    margin: 10px 10px 10px 20px ;
+    /*margin: 10px 10px 10px 20px ;*/
 }
 
-.button-log-iniciar{
+
+.button-log-iniciar, .button-log-mobile{
     background-color: var(--blueindexbutttoms-color);
     color: var(--white-color);
     border-radius: 9px;
     padding: 10px;
-    
     text-decoration: none;
+}
+
+.button-log-iniciar{
+    display: none;
 }
 
 .button-index-head {
@@ -110,11 +115,12 @@
 }
 
 .index-head-left{
+    margin-top: 1%;
     display: flex;
-    justify-content: center;
-    align-items: flex-end;
+    justify-content: space-between;
+    align-items: center;
     float: left;
-    width: 30%;
+    width: 95%;
 }
 
     /*Banner*/
@@ -289,9 +295,82 @@
         display: flex;
         flex-direction: row;
         justify-content: center;
-        width: 90%;
-        background-color: #6301a400;
+        width: 95%;
+        background-color: #6301a4;
     }
+
+    .index-head-right{
+        width: 70%;
+        float: right;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .index-head-top{
+        width: 80;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    
+    .head-phone, .head-ubication{
+        display: flex;
+        align-items: center;
+        margin: 10px 10px 10px 20px;
+        
+    }
+    
+    .head-phone a, .head-ubication a{
+        color: var(--dark-color);
+        text-decoration: none;
+    }
+    
+    .head-ubication{
+        margin: 10px 10px 10px 20px ;
+    }
+    
+    .button-log-iniciar{
+        background-color: var(--blueindexbutttoms-color);
+        color: var(--white-color);
+        border-radius: 9px;
+        padding: 10px;
+        display: initial;
+        text-decoration: none;
+    }
+
+    .button-log-mobile{
+        display: none;
+    }
+    
+    .button-index-head {
+        margin-left: 100px;
+    }
+    
+    .index-head-bottom{
+        background-image: url(../img/1.\ linea.png);
+        background-size: 90%;
+        background-repeat: no-repeat;
+        background-position-x: 100px;
+        background-position-y: 50%;
+        color: var(--DarkOrange-color);
+        height: 80px;
+        
+    }
+    
+    .index-head-bottom img{
+        width: 50px;
+        display: flex;
+        align-items: flex-start;
+    }
+    
+    .index-head-left{
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        float: left;
+        width: 30%;
+    }
+    
 }
 
 
