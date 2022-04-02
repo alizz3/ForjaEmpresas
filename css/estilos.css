@@ -302,6 +302,7 @@
     font-weight: 300;
 }
 
+/*responsive tablet*/
 @media screen and (min-width:768px) {
     .heder-index-container{
         background-color: rgb(217, 255, 0);
@@ -324,6 +325,7 @@
     }
 }
 
+/*responsive pc*/
 @media screen and (min-width: 1023px) {
     .heder-index-container{
         display: flex;
