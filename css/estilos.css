@@ -93,9 +93,10 @@
     display: none;
 }
 
-.button-log-mobile{
-    margin-right: 5%;
+.button-log-mobile {
+    font-size: 150%;
 }
+
 .button-index-head {
     margin-left: 100px;
 }
@@ -123,12 +124,15 @@
     justify-content: space-between;
     align-items: center;
     float: left;
-    width: 95%;
+    width: 90%;
 }
 
 .logo-head{
-    width: 50%;
+    width: 80%;
 }
+
+
+
 
     /*Banner*/
 .banner{
