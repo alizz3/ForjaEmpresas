@@ -93,6 +93,9 @@
     display: none;
 }
 
+.button-log-mobile{
+    margin-right: 5%;
+}
 .button-index-head {
     margin-left: 100px;
 }
