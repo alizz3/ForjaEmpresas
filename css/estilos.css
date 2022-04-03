@@ -190,9 +190,8 @@
     justify-content: center;
     align-items: center;
     width: 60%;
-    padding: 1%;
-    background-color: rgba(217, 255, 0, 0.26);
-    margin: 10% 0;
+    padding: 5% 0;
+    margin: 5% 0;
 }
 
 
@@ -406,10 +405,11 @@
         justify-content: center;
         align-items: center;
         width: 60%;
-        background-color: rgba(43, 255, 0, 0.904);
     }
 
-
+    #barra-forja{
+        height: 2.5rem;
+    }
 }
 
 
@@ -532,7 +532,6 @@
         align-items: center;
         width: 60%;
         padding: 1%;
-        background-color: rgba(255, 0, 0, 0.904);
     }
 
     #barra-forja{
