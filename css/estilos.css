@@ -194,23 +194,25 @@
     margin: 5% 0;
 }
 
-
 #barra-forja{
     margin-top: -4px;
     margin-bottom: -4px;
     width: 100%;
-    height: 2rem;
+    height: 1.5rem;
 }
+
+
+
 
 /*articulos*/
         /*contenedor*/
 #information-index{
-    background-image: url(../img/covid-backgroung.png);
+    /*background-image: url(../img/covid-backgroung.png);
     background-repeat: no-repeat; 
-    background-size: cover;
-    background-position-x: -1px  ;
-    background-position-y: -180px;
+    background-size: cover;*/
+    background-color: rgb(200, 255, 0);
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
     padding-top: 20px;    
@@ -410,6 +412,10 @@
     #barra-forja{
         height: 2.5rem;
     }
+
+    #information-index{
+        background-color: hsl(202, 100%, 66%);
+    }
 }
 
 
@@ -540,7 +546,10 @@
         width: 100%;
     }
 
-
+    #information-index{
+        background-color: pink;
+        flex-direction: row;
+    }
 }
 
 
