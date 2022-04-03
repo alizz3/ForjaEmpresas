@@ -378,7 +378,7 @@
 }
 
 #container-login{
-    height: 90%;
+    height: 39rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
