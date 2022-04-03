@@ -203,8 +203,6 @@
 }
 
 
-
-
 /*articulos*/
         /*contenedor*/
 #information-index{
@@ -239,10 +237,6 @@
     width: 2rem;
     padding-bottom: 10;
 }
-
-
-
-
 
         /*izquierda*/
 .information-left{
@@ -343,6 +337,130 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*css for login.html*/
+
+#login {
+    background-image: url(../img/10.png);
+    background-size: 120%;
+    background-position-x: -120px  ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 97%;
+    width: 98%;
+    position: absolute;
+}
+
+#container-login{
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+}
+
+.button-login-vol{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.log-login{
+    height: 900%;
+}
+
+.forja-login{
+    background-color:var(--LightBlue-color);
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+}
+
+.forja-login h2 {
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: larger;
+}
+
+.datos-login{
+    background-color: var(--white-color);
+    border-radius: 0 0 10px 10px;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 50%;
+}
+
+.login-group{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-group input{
+    background-color: var(--blueinputs-color);
+    margin-top: 5px;
+    border-radius: 19px;
+    height: 30px;
+    width: 60%;
+    border: 2px solid var(--LightBlue-color);
+}
+
+.button-login-ing{
+    text-align: center;
+}
+
+.button-log-volver, .button-log-ingresar{
+    font-family: var(--Poppins-font);
+    color: var(--white-color);
+    border: var(--blue-color) 2px solid;
+    border-radius: 7px;
+    text-decoration: none;
+}
+
+.button-log-volver{
+    background-color: var(--Bluebuttoms-color);
+    margin-bottom: 10px;
+    padding: 5px 10px 5px 10px;
+}
+
+.button-log-ingresar{
+    background-color: var(--DarkOrange-color);
+    padding: 5px 40px 5px 40px;
+}
+
+.forgot, .login-label{
+    color: var(--dark-color);
+    font-weight: 500;
+}
+
 /*responsive tablet*/
 @media screen and (min-width:768px) {
     /*css for Index.html*/
@@ -385,7 +503,6 @@
     .button-log-iniciar-banner{
         display: initial;
     }
-
 
 
     /*banner*/
@@ -436,8 +553,12 @@
     .other-information-1, .other-information-2, .other-information-3, .other-information-4, .other-information-5{
         font-size: 1rem;
     }
-}
 
+
+
+/*Tablet css for login.html*/
+
+}
 
 /*responsive Desktop*/
 @media screen and (min-width: 1023px) {
@@ -667,6 +788,11 @@
     .tittle-information-1 h2, .tittle-information-2 h2{
         font-size: 2rem;
     }
+
+
+
+    /*Desktop css for login.html*/
+
 }
 
 
@@ -682,116 +808,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-/*css for login.html*/
-
-#login {
-    background-image: url(../img/10.png);
-    background-size: 120%;
-    background-position-x: -120px  ;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: 97%;
-    width: 98%;
-    position: absolute;
-}
-
-#container-login{
-    height: 90%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 40%;
-}
-
-.button-login-vol{
-    display: flex;
-    justify-content: flex-end;
-}
-
-.log-login{
-    height: 900%;
-}
-
-.forja-login{
-    background-color:var(--LightBlue-color);
-    border-radius: 10px 10px 0 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 50%;
-}
-
-.forja-login h2 {
-    margin-top: 20px;
-    font-weight: 500;
-    font-size: larger;
-}
-
-.datos-login{
-    background-color: var(--white-color);
-    border-radius: 0 0 10px 10px;
-    display: flex;
-    flex-direction:column;
-    justify-content: space-evenly;
-    width: 100%;
-    height: 50%;
-}
-
-.login-group{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.login-group input{
-    background-color: var(--blueinputs-color);
-    margin-top: 5px;
-    border-radius: 19px;
-    height: 30px;
-    width: 60%;
-    border: 2px solid var(--LightBlue-color);
-}
-
-.button-login-ing{
-    text-align: center;
-}
-
-.button-log-volver, .button-log-ingresar{
-    font-family: var(--Poppins-font);
-    color: var(--white-color);
-    border: var(--blue-color) 2px solid;
-    border-radius: 7px;
-    text-decoration: none;
-}
-
-.button-log-volver{
-    background-color: var(--Bluebuttoms-color);
-    margin-bottom: 10px;
-    padding: 5px 10px 5px 10px;
-}
-
-.button-log-ingresar{
-    background-color: var(--DarkOrange-color);
-    padding: 5px 40px 5px 40px;
-}
-
-.forgot, .login-label{
-    color: var(--dark-color);
-    font-weight: 500;
-}
 
 
 
