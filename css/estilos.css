@@ -32,15 +32,15 @@
 
 /*css for Index.html*/
     
-    /*Heder index.html*/
-#heder-index{
+    /*header index.html*/
+#header-index{
     border-top: 1rem solid var(--DarkGray-color);
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.heder-index-container{
+.header-index-container{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -363,14 +363,17 @@
 
 #login {
     background-image: url(../img/10.png);
-    background-size: 120%;
-    background-position-x: -120px  ;
+    background-size: cover;
+    background-position-x: -120px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #7D8787;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 97%;
-    width: 98%;
+    height: 100%;
+    width: 100%;
     position: absolute;
 }
 
@@ -379,7 +382,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 40%;
+    width: 90%;
 }
 
 .button-login-vol{
@@ -402,10 +405,16 @@
     height: 50%;
 }
 
+.forja-login img{
+    width: 100%;
+    max-width: 300px;
+}
+
 .forja-login h2 {
     margin-top: 20px;
     font-weight: 500;
-    font-size: larger;
+    font-size: 1rem;
+    text-align: center;
 }
 
 .datos-login{
@@ -465,7 +474,7 @@
 @media screen and (min-width:768px) {
     /*css for Index.html*/
     
-    /*Heder index.html*/
+    /*header index.html*/
     .logo-head{
         width: 30%;
     }
@@ -556,16 +565,57 @@
 
 
 
-/*Tablet css for login.html*/
+/*Tablet css for login.html 768*/
+
+    #container-login{
+        width: 60%;
+        height: 90%;
+    }
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*responsive Desktop*/
 @media screen and (min-width: 1023px) {
     /*css for Index.html*/
     
-    /*Heder index.html*/
-    .heder-index-container{
+    /*header index.html*/
+    .header-index-container{
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -791,9 +841,32 @@
 
 
 
-    /*Desktop css for login.html*/
+    /*Desktop css for login.html 1023*/
+
+    #container-login{
+        width: 40%;
+        height: 90%;        
+    }
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1099,7 +1172,7 @@
 
 
 /*css for pacientes.html*/
-#heder-pacientes-container{
+#header-pacientes-container{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -1107,7 +1180,7 @@
     padding: 10px;
 }
 
-.logo-heder-pacientes- img{
+.logo-header-pacientes- img{
     height: 50px;
 }
 
@@ -1119,7 +1192,7 @@
     margin-bottom: 1px;
 }
 
-.buttons-heder-pacientes i{
+.buttons-header-pacientes i{
     font-size: 20px;
     padding: 10px 9px;
     margin: 5px;
@@ -1130,7 +1203,7 @@
 
 }
 
-.buttons-heder-pacientes{
+.buttons-header-pacientes{
     display: flex;
     align-items: center;
     justify-content: center;
