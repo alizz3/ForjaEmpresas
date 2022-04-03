@@ -139,7 +139,8 @@
 }
 
 .logo-head{
-    width: 250px;
+    width: 80%;
+    max-width: 250px;
 }
 
 .head-ubication {
@@ -207,15 +208,15 @@
 /*articulos*/
         /*contenedor*/
 #information-index{
-    /*background-image: url(../img/covid-backgroung.png);
+    background-image: url(../img/covid-backgroung.png);
     background-repeat: no-repeat; 
-    background-size: cover;*/
-    background-color: rgb(200, 255, 0);
+    background-size: cover;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding-top: 20px;    
+
 }
 
 .tittle-information-1, .tittle-information-2{
@@ -225,16 +226,17 @@
 }
 
 .tittle-information-1 h2, .tittle-information-2 h2{
-    font-size: 25px;
+    font-size: 1.2rem;
     font-weight: 500;
 }
 
 .tittle-information-1 img{
-    width: 50px;
+    width: 2rem;
+    margin-right: 10px;
 }
 
 .tittle-information-2 img{
-    width: 60px;
+    width: 2rem;
     padding-bottom: 10;
 }
 
@@ -245,16 +247,16 @@
         /*izquierda*/
 .information-left{
     width: 50%;
-    height: 294px;
     float: left;
     display: flex;
     justify-content: center;
+    margin-bottom: 6%;
 }
 
 .sintomas-index {
     display: flex;
     justify-content: center;
-    font-size: 19px;
+    font-size: 1rem;
 }
 
 .sintomas-index ul{
@@ -274,13 +276,15 @@
 }
 
 .hacer-index p{
-    font-size: 19px;
+    font-size: 1rem;
     font-weight: 200;
     margin-top: 10px;
+    line-height: 170%;
+
 }
 
-.article-2{
-    width: 66%;
+.article-2, .article-1{
+    width: 100%;
 }
 
 .oms-curso{
@@ -300,16 +304,22 @@
     margin-bottom: 10px
 }
 
+
+
+
 /*other information*/
 #other-information-index{
     display: flex;
     flex-direction: column;
 }
 
+
+
 .other-information-1, .other-information-2, .other-information-3, .other-information-4, .other-information-5{
     text-decoration: none;
     background-color: var(--darkBlue-color);
     color: var(--white-color);
+    font-size: 0.7rem;
     padding: 10px 0 10px 5px;
 }
 
@@ -413,10 +423,19 @@
 
     /*articulos*/
     #information-index{
-        background-color: hsl(202, 100%, 66%);
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: center;
+        width: 100%;
     }
 
-    
+    .information-left, .information-right{
+        margin: 1rem;
+    }
+
+    .other-information-1, .other-information-2, .other-information-3, .other-information-4, .other-information-5{
+        font-size: 1rem;
+    }
 }
 
 
@@ -550,6 +569,7 @@
     #information-index{
         background-color: pink;
         flex-direction: row;
+        align-items: flex-start;
     }
 
 
@@ -562,6 +582,7 @@
     
     .tittle-information-1 img{
         width: 50px;
+        margin-right: 5%;
     }
     
     .tittle-information-2 img{
@@ -569,9 +590,14 @@
         padding-bottom: 10;
     }
     
+    .article-2, .article-1{
+        width: 60%;
+    }
     
-    
-    
+        .information-left{
+        margin-bottom: 9%;
+    }
+
     
             /*izquierda*/
     .information-left{
@@ -580,6 +606,8 @@
         float: left;
         display: flex;
         justify-content: center;
+        align-items: flex-start;
+        margin-bottom: 0%;
     }
     
     .sintomas-index {
@@ -629,6 +657,18 @@
         color: var(--blueindexbutttoms-color);
         font-weight: 500;
         margin-bottom: 10px
+    }
+
+    .other-information-1, .other-information-2, .other-information-3, .other-information-4, .other-information-5{
+        font-size: 1.2rem;
+    }
+
+    .sintomas-index, .hacer-index {
+        font-size: 1.2rem;
+    }
+    
+    .tittle-information-1 h2, .tittle-information-2 h2{
+        font-size: 2rem;
     }
 }
 
