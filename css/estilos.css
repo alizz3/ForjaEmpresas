@@ -68,7 +68,7 @@
 .head-phone a, .head-ubication a{
     color: var(--dark-color);
     text-decoration: none;
-    font-size: 0.9rem;
+    font-size: 14px;
 }
 
 .head-phone{
@@ -83,7 +83,7 @@
     width: 135%;
 }
 
-.button-log-iniciar, .button-log-mobile, .button-log-iniciar-tablet{
+.button-log-iniciar, .button-log-mobile, .button-log-iniciar-tablet, .button-log-iniciar-banner{
     background-color: var(--blueindexbutttoms-color);
     color: var(--white-color);
     border-radius: 9px;
@@ -91,12 +91,12 @@
     text-decoration: none;
 }
 
-.button-log-iniciar{
+.button-log-iniciar, .button-log-iniciar-banner{
     display: none;
 }
 
 .button-log-mobile {
-    font-size: 140%;
+    font-size: 100%;
 }
 .button-log-iniciar-tablet{
     display: none;
@@ -156,10 +156,15 @@
 
 
 
-    /*Banner*/
+/*Banner*/
 .banner{
-    position: relative;
-    margin-bottom: 0px;
+    background-image: url(../img/2.\ medico.png);
+    background-size: cover;
+    background-position-x: right ; 
+    background-repeat: no-repeat;   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .banner img{
@@ -168,25 +173,28 @@
 
 .banner h2{
     color: var(--Orange-color);
-    font-size: 50px;
+    font-size: 1rem;
     font-weight: 400;
 }
 
 .banner h1{
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-size: 70px;
+    font-size: 1.5rem;
     font-weight: 400;
+    margin: 2%;
 }
 
 .text-banner-index{
     display: flex;
+    text-align: center;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    position: absolute;
-    top: 25%; left: 80px;
+    width: 60%;
+    padding: 1%;
+    background-color: rgba(217, 255, 0, 0.26);
+    margin: 10% 0;
 }
+
 
 #barra-forja{
     margin-top: -4px;
@@ -231,6 +239,10 @@
     width: 60px;
     padding-bottom: 10;
 }
+
+
+
+
 
         /*izquierda*/
 .information-left{
@@ -325,6 +337,9 @@
 
 /*responsive tablet*/
 @media screen and (min-width:768px) {
+    /*css for Index.html*/
+    
+    /*Heder index.html*/
     .logo-head{
         width: 30%;
     }
@@ -359,15 +374,50 @@
         display: none;
     }
 
+
+    .button-log-iniciar-banner{
+        display: initial;
+    }
+    /*banner*/
+    .banner{
+        background-position-x: right ; 
+
+    }
+
     
+    .banner h2{
+        
+        font-size: 2rem;
+        font-weight: 400;
+    }
+
+    .banner h1{
+        font-size: 3rem;
+        font-weight: 400;
+    }
+
+    .text-banner-index{
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 60%;
+        background-color: rgba(43, 255, 0, 0.904);
+    }
+
+
 }
 
 
 
 
 
-/*responsive pc*/
+/*responsive Desktop*/
 @media screen and (min-width: 1023px) {
+    /*css for Index.html*/
+    
+    /*Heder index.html*/
     .heder-index-container{
         display: flex;
         flex-direction: row;
@@ -398,10 +448,8 @@
     .head-phone a, .head-ubication a{
         color: var(--dark-color);
         text-decoration: none;
-    }
-    
-    
-    
+    }   
+        
     .button-log-iniciar{
         display: initial;
     }
@@ -449,7 +497,48 @@
         width: 30%;
     }
     
-    
+        /*Banner*/
+    .banner{
+        background-image: url(../img/2.\ medico.png);
+        background-size: cover;
+        background-position-x: right ;    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .banner img{
+        width: 100%;
+    }
+
+    .banner h2{
+        color: var(--Orange-color);
+        font-size: 3rem;
+        font-weight: 400;
+    }
+
+    .banner h1{
+        font-size: 4rem;
+        font-weight: 400;
+    }
+
+    .text-banner-index{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 60%;
+        padding: 1%;
+        background-color: rgba(255, 0, 0, 0.904);
+    }
+
+    #barra-forja{
+        margin-top: -4px;
+        margin-bottom: -4px;
+        width: 100%;
+    }
+
+
 }
 
 
@@ -619,7 +708,6 @@
     transform: scale(1.1);
     transition-duration: 0.3s;
 }
-
 
 .container-buttons-db {
     display: flex;
