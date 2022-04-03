@@ -46,8 +46,6 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-    background-color: #A40101;
-
 }
 
 .index-head-right{
@@ -132,7 +130,7 @@
 
 
 .index-head-left{
-    margin-top: 5%;
+    margin-top: 1%;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -323,12 +321,10 @@
     font-weight: 300;
 }
 
+
+
 /*responsive tablet*/
 @media screen and (min-width:768px) {
-    .heder-index-container{
-        background-color: rgb(217, 255, 0);
-    }
-
     .logo-head{
         width: 30%;
     }
@@ -350,7 +346,6 @@
     }
 
     .index-head-top{
-        background-color: red;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
@@ -378,7 +373,7 @@
         flex-direction: row;
         justify-content: center;
         width: 95%;
-        background-color: #6301a4;
+        margin-top: 1%;
     }
 
     .index-head-right{
@@ -389,15 +384,15 @@
     }
     
     .index-head-top{
-        width: 80;
         display: flex;
         align-items: center;
-        justify-content: flex-end;
+        display: flex;
     }
     
     .head-phone, .head-ubication{
         display: flex;
-        align-items: center;        
+        align-items: center;
+        width: auto;        
     }
     
     .head-phone a, .head-ubication a{
@@ -408,16 +403,12 @@
     
     
     .button-log-iniciar{
-        background-color: var(--blueindexbutttoms-color);
-        color: var(--white-color);
-        border-radius: 9px;
-        padding: 10px;
         display: initial;
-        text-decoration: none;
     }
 
     .button-index-head{
         display: initial;
+        width: auto;
 
     }
 
