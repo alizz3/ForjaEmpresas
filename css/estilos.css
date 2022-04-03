@@ -229,10 +229,6 @@
     font-weight: 500;
 }
 
-.tittle-information-1{
-    margin-bottom: 0px;
-}
-
 .tittle-information-1 img{
     width: 50px;
 }
@@ -413,9 +409,14 @@
         height: 2.5rem;
     }
 
+
+
+    /*articulos*/
     #information-index{
         background-color: hsl(202, 100%, 66%);
     }
+
+    
 }
 
 
@@ -549,6 +550,85 @@
     #information-index{
         background-color: pink;
         flex-direction: row;
+    }
+
+
+
+    /*articulos*/
+    .tittle-information-1 h2, .tittle-information-2 h2{
+        font-size: 25px;
+        font-weight: 500;
+    }
+    
+    .tittle-information-1 img{
+        width: 50px;
+    }
+    
+    .tittle-information-2 img{
+        width: 60px;
+        padding-bottom: 10;
+    }
+    
+    
+    
+    
+    
+            /*izquierda*/
+    .information-left{
+        width: 50%;
+        height: 294px;
+        float: left;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .sintomas-index {
+        display: flex;
+        justify-content: center;
+        font-size: 19px;
+    }
+    
+    .sintomas-index ul{
+        list-style-image: url(../img/6.\ check.svg);
+        font-weight: 200;
+        
+    }
+    
+            /*Derecha*/
+    .information-right{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        float: right;
+    }
+    
+    .hacer-index p{
+        font-size: 19px;
+        font-weight: 200;
+        margin-top: 10px;
+    }
+    
+    .article-2{
+        width: 66%;
+    }
+    
+    .oms-curso{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .oms-curso img{
+        width: 100px;
+    }
+    
+    .oms-curso a{
+        text-decoration: none;
+        color: var(--blueindexbutttoms-color);
+        font-weight: 500;
+        margin-bottom: 10px
     }
 }
 
