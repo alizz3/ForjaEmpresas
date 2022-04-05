@@ -1168,7 +1168,10 @@
     .logo{
         display: initial;
     }
-
+    
+    .logo-palomita{
+        display: none;
+    }
 
 }
 
