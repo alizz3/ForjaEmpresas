@@ -337,28 +337,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*css for login.html*/
 
 #login {
@@ -477,9 +455,242 @@
     font-weight: 500;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*css for Dashboard.html*/
+
+#dashboard {
+    height: 100%;
+    width: 50%;
+    margin: 0;
+}
+
+/*lado izquierdo*/
+#menu {
+    float: left;
+
+
+    width: 20%;
+    /*border: 1px solid #2CA3AB;*/
+    background-color: var(--darkBlue-color);
+
+
+    height: 100%;
+    position: absolute;
+    z-index: 2;
+
+
+}
+
+.logo-menu-db {
+    text-align: center;
+    position: relative;
+    top: 16%;
+}
+
+.logo-palomita{
+    width: 90%;
+    max-width: 100px;
+}
+.logo {
+    max-width: 200px;
+    display: none;
+
+}
+
+.logo-menu-db img:hover{
+    transform: scale(1.1);
+    transition-duration: 0.3s;
+}
+
+.container-buttons-db {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    height: 100px;
+    text-align: center;
+    position: relative;
+    top: 40%;
+}
+
+.buttons--db {
+    text-align: center;
+    font-family: var(--Poppins-font);
+    font-weight: 600;
+
+}
+
+.buttons--db h4{
+    display: none;
+}
+
+.buttons--db a {
+    background-color: var(--gray-color);
+    border: var(--DarkOrange-color) solid 4px;
+    border-radius: 9px;
+    color: var(--dark-color);
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+
+}
+
+/*lado derecho*/
+#bienvenidos {
+    position: absolute;
+    right: 0px;
+    float: right;
+    width: 80%;
+    height: 100%;
+
+
+
+    background-image: linear-gradient(rgba(255, 255, 255, 0.658), rgba(255, 255, 255, 0.658)), url(../img/13.\ guerreros.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+    background-size: 200px;
+    
+}
+
+.img-dashboard{
+    position: absolute;
+    width: 100%;
+    background-color: blue;
+}
+
+.derecha{
+    position: relative;
+    background: linear-gradient(174.19deg, #FFFFFF 61.71%, rgba(255, 255, 255, 0) 64.54%);    height: 80%;
+    padding: 1rem;
+    border-radius: 50px 50px 0px 0px ;
+    top: 3.5rem;
+}
+/*usuario*/
+.container-button-user-db {
+    display: flex;
+    justify-content: end;
+}
+
+.button-user-db {
+    display: flex;
+    align-items: center;
+    max-width: 33%;
+    min-width: 3px;
+    background-color: var(--gray-color);
+    border-radius: 19px;
+    margin: 5px 6px 0px 0px;
+    margin-right: 10px;
+}
+
+.button-user-db a {
+    border-radius: 200px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--dark-color);
+    border: 2px solid var(--Orange-color);
+    background-color: var(--white-color);
+    cursor: hand;
+    margin: 10px 10px 10px 10px;
+}
+
+.button-user-db h4 {
+    display: none;
+}
+
+/*titulo Bienvenidos*/
+.text-bienve-db h1 {
+    color: var(--DarkOrange-color);
+    text-align: center;
+    font-family: var(--Poppins-font);
+    font-weight: 600;
+    margin: 50px 0px 70px 0px;
+}
+
+/*Digite documento*/
+.container-digite {
+    max-width: 68rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.digite {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 6px;
+    height: 100px;
+
+    margin-bottom: 20px;
+    /*border: #df6704 solid 10px;*/
+}
+
+.digite-input {
+    width: 96%;
+    max-width: 300px;
+    margin-right: 10px;
+    padding-bottom: 5px;
+    border: 0;
+    border-bottom: 2px solid var(--Bluebuttoms-color);
+}
+
+::placeholder {
+    font-family: var(--Poppins-font);
+    font-size: 0.8rem;
+}
+
+.botones-db a {
+    color: var(--white-color);
+    background-color: var(--Bluebuttoms-color);
+    border: var(--blue-color) 3px solid;
+    padding: 4px 10px 4px 10px;
+    border-radius: 9px;
+    margin-right: 4px;
+}
+
+/*Barra forja*/
+.footer-db {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
 /*responsive tablet*/
 @media screen and (min-width:768px) {
-    /*css for Index.html*/
+    /*Tablet css for Index.html*/
     
     /*header index.html*/
     .logo-head{
@@ -572,7 +783,7 @@
 
 
 
-/*Tablet css for login.html 768*/
+    /*Tablet css for login.html 768*/
 
     #container-login{
         width: 60%;
@@ -599,6 +810,60 @@
 
     .login-group input{
         width: 70%;
+    }
+
+
+
+
+
+
+
+
+
+    
+
+/*Tablet css for Dashboard.html*/
+
+    .img-dashboard{
+        display: none;
+        position: initial;
+    }
+
+    .derecha{
+        border-radius: 0;
+        position: initial;
+        background-color: rgba(255, 255, 255, 0.733);
+    }
+
+    .digite{
+        flex-direction: row;
+    }
+
+    .digite-input {
+        width: 300px;
+        max-width: 300px;
+    }
+    
+    .button-user-db h4 {
+        font-family: var(--Poppins-font);
+        font-weight: 100;
+        margin: 0px 15px 0px 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        display: initial;
+    }
+
+    .footer-db {
+        display: initial;
+        position: fixed;
+        bottom: 0px;    
+        margin-right: 0px;
+        height: 50px;
+    }
+    
+    .button-user-db a{
+        border: 5px solid var(--Orange-color);
     }
 }
 
@@ -630,17 +895,10 @@
 
 
 
-
-
-
-
-
-
-
-
 /*responsive Desktop*/
 @media screen and (min-width: 1024px) {
-    /*css for Index.html*/
+    
+    /*Desktopcss for Index.html*/
     
     /*header index.html*/
     .header-index-container{
@@ -872,8 +1130,8 @@
     /*Desktop css for login.html 1023*/
 
     #container-login{
-        width: 70%;
-        max-width: 70%;
+        width: 60%;
+        max-width: 60%;
         height: 90%;        
     }
 
@@ -892,16 +1150,58 @@
     .login-group input{
         width: 60%;
     }
+
+
+
+
+    
+    /*Desktop css for Dashboard.html*/
+
+    .derecha{
+        background-color: rgba(255, 255, 255, 0.582);
+    }
+    
+    .buttons--db h4{
+        display: initial;
+    }
+
+    .logo{
+        display: initial;
+    }
+
+
 }
 
 
-@media screen and (min-width:1200px) {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*responsive 1300px*/
+@media screen and (min-width:1300px) {
     
-
-
-
-
     /*Desktop css for login.html 1023*/
+
+    #login{
+        background-color: red;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 
     #container-login{
         height: 39rem;
@@ -941,7 +1241,7 @@
     }
 
     .button-log-volver h5 {
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
     
     .login-group input{
@@ -955,227 +1255,25 @@
         text-align: center;
         font-size: 1.2rem;
     }
-}
 
 
 
+    /*1023 Desktop css for Dashboard.html*/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*css for Dashboard.html*/
-
-#dashboard {
-    height: 100%;
-    width: 100%;
-    margin: 0;
-}
-
-/*lado izquierdo*/
-#menu {
-    float: left;
-
-
-    width: 20%;
-    /*border: 1px solid #2CA3AB;*/
-    background-color: var(--darkBlue-color);
-
-
-    height: 100%;
-    position: absolute;
-
+    
 
 }
 
-.logo-menu-db {
-    text-align: center;
-    position: relative;
-    top: 16%;
-}
-
-.logo-menu-db img {
-    max-width: 200px;
-
-}
-
-.logo-menu-db img:hover{
-    transform: scale(1.1);
-    transition-duration: 0.3s;
-}
-
-.container-buttons-db {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-
-    height: 100px;
-    text-align: center;
-    position: relative;
-    top: 40%;
-}
-
-.buttons--db {
-    text-align: center;
-    font-family: var(--Poppins-font);
-    font-weight: 600;
-
-}
-
-.buttons--db a {
-    background-color: var(--gray-color);
-    border: var(--DarkOrange-color) solid 4px;
-    border-radius: 9px;
-    color: var(--dark-color);
-    margin: 10px 0px 10px 0px;
-    padding: 10px 0px 10px 0px;
-    display: flex;
-    flex-direction: column;
-    text-decoration: none;
-
-}
-
-/*lado derecho*/
-#bienvenidos {
-    position: absolute;
-    right: 0px;
-    float: right;
-    width: 80%;
-    height: 100%;
 
 
 
-    background-image: linear-gradient(rgba(255, 255, 255, 0.658), rgba(255, 255, 255, 0.658)), url(../img/13.\ guerreros.png);
-    background-repeat: no-repeat;
-    background-position-y: bottom;
-    background-position-x: 95%;
-}
 
-/*usuario*/
-.container-button-user-db {
-    display: flex;
-    justify-content: end;
-}
 
-.button-user-db {
-    display: flex;
-    align-items: center;
-    max-width: 33%;
-    min-width: 33px;
-    background-color: var(--gray-color);
-    border-radius: 19px;
-    margin: 5px 6px 0px 0px;
-}
 
-.button-user-db a {
-    border-radius: 200px;
-    padding: 15px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: var(--dark-color);
-    border: 5px solid var(--Orange-color);
-    background-color: var(--white-color);
-    cursor: hand;
-    margin: 10px 10px 10px 10px;
-}
 
-.button-user-db h4 {
-    font-family: var(--Poppins-font);
-    font-weight: 100;
-    margin: 0px 15px 0px 0px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
-/*titulo Bienvenidos*/
-.text-bienve-db h1 {
-    color: var(--DarkOrange-color);
-    text-align: center;
-    font-family: var(--Poppins-font);
-    font-weight: 600;
-    margin: 50px 0px 70px 0px;
-}
 
-/*Digite documento*/
-.container-digite {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
-.digite {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 6px;
-
-    margin-bottom: 20px;
-    /*border: #df6704 solid 10px;*/
-}
-
-.digite-input {
-    width: 300px;
-    margin-right: 10px;
-    padding-bottom: 5px;
-    border: 0;
-    border-bottom: 2px solid var(--Bluebuttoms-color);
-}
-
-::placeholder {
-    font-family: var(--Poppins-font);
-}
-
-.botones-db a {
-    color: var(--white-color);
-    background-color: var(--Bluebuttoms-color);
-    border: var(--blue-color) 3px solid;
-    padding: 4px 10px 4px 10px;
-    border-radius: 9px;
-    margin-right: 4px;
-}
-
-/*Barra forja*/
-.footer-db {
-    position: fixed;
-    bottom: 0;
-    height: 50px;
-    width: 100%;
-}
 
 
 
