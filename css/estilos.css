@@ -962,6 +962,188 @@
 
 
 
+
+
+
+
+
+
+
+
+/*css for formulario.html*/
+
+.tittle-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tittle-form h2{
+    background-color: var(--Bluebuttoms-color);
+    color: var(--white-color);
+    border-radius: 9px;
+    border: var(--blue-color) solid 3px; 
+    width: 98%;
+    text-align: center;
+    padding: 5px;
+    margin: 10px 2px;
+    font-weight: 300;
+
+}
+
+.border-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: var(--DarkGray-color) solid 2px;    
+    margin: 10px;
+    padding: 30px;
+}
+
+.form-container{
+    background-color: var(--gray-color);
+    padding: 30px 30px;
+    border-radius: 9px;
+    border: var(--DarkGray-color) solid 2px;
+}
+
+.form-container input, select{
+    background-color: #ffffff;
+    border: var(--blue-color) solid 2px;
+}
+
+.datos-dia-form {
+    padding: 20px;
+}
+
+.datos-dia-form input, select{
+    width: 50%;
+    height:  30px;
+}
+
+.datos-paciente-form{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.datos-paciente-form input, select{
+    width: 100%;
+    height:  30px;
+    margin: 10px;
+
+}
+
+.datos-paciente-form select{
+    width: 100%;
+    height:  30px;
+}
+
+.barra-campo-form{
+    display: flex;
+    align-items: center;
+    background-color: var(--blue-color);
+    padding: 5px 40px;
+    border-radius: 6px;
+    border: var(--black-color) solid 1px;
+    margin: 10px 0;
+}
+
+.barra-campo-form i{
+    color: var(--black-color);
+    font-size: 20px;
+    width: 2%;
+}
+
+.barra-campo-form h3{
+    color: var(--white-color);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 300;
+    font-size: 18px;
+    width: 98%;
+}
+
+.informacion-contacto-form{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+
+}
+
+.informacion-contacto-form input, select{
+    width: 100%;
+    height:  30px;
+    margin: 10px;
+}
+
+.informacion-contacto-form select{
+    width: 100%;
+    height:  30px;
+}
+
+.estado-salud-form{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+
+}
+
+.estado-salud-form input, select{
+    width: 100%;
+    height:  30px;
+}
+
+.estado-salud-form select{
+    width: 100%;
+    height:  30px;
+}
+
+.options{
+    text-align: center;
+    margin: 20px;
+    color:var(--DarkGray-color);
+}
+
+.form-container input, label, select{
+    color:var(--DarkGray-color);
+}
+
+.button-guardar{
+    font-family: var(--Poppins-font);
+    color: var(--white-color);
+    border: var(--DarkOrange-color) 2px solid;
+    border-radius: 7px;
+    text-decoration: none;
+    background-color: var(--DarkOrange-color);
+    padding: 5px 40px 5px 40px;
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-guardar-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.videoprueba{
+    width: 100%;
+}
+
+
+
+
+
 /*responsive tablet*/
 @media screen and (min-width:768px) {
     /*Tablet css for Index.html*/
@@ -1154,6 +1336,8 @@
         width: 80%;
         overflow: auto;
     }
+
+    /*Tablet css for formulario.html*/
 }
 
 
@@ -1480,6 +1664,46 @@
         display: initial;
     }
 
+    /*Desktop css for formulario.html*/
+
+    .datos-paciente-form input, select{
+        width: 47%;
+        height:  30px;
+        margin: 10px;
+    
+    }
+    
+    .datos-paciente-form select{
+        width: 47.35%;
+        height:  30px;
+    }
+
+
+    .informacion-contacto-form input, select{
+        width: 47%;
+        height:  30px;
+        margin: 10px;
+    }
+    
+    .informacion-contacto-form select{
+        width: 47.35%;
+        height:  30px;
+    }
+
+    .estado-salud-form input, select{
+        width: 30%;
+        height:  30px;
+    }
+    
+    .estado-salud-form select{
+        width: 31.35%;
+        height:  30px;
+    }
+
+    .datos-dia-form input, select{
+        width: 25%;
+        height:  30px;
+    }
 }
 
 /*responsive 1300px*/
@@ -1550,203 +1774,9 @@
 
 
 
-    /*1023 Desktop css for Pacientes.html*/
+    /*1023 Desktop css for formulario.html*/
 
     
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*css for formulario.html*/
-
-.tittle-form{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.tittle-form h2{
-    background-color: var(--Bluebuttoms-color);
-    color: var(--white-color);
-    border-radius: 9px;
-    border: var(--blue-color) solid 3px; 
-    width: 98%;
-    text-align: center;
-    padding: 5px;
-    margin: 10px 2px;
-    font-weight: 300;
-
-}
-
-.border-form{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: var(--DarkGray-color) solid 2px;    
-    margin: 10px;
-    padding: 30px;
-}
-
-.form-container{
-    background-color: var(--gray-color);
-    padding: 30px 30px;
-    border-radius: 9px;
-    border: var(--DarkGray-color) solid 2px;
-}
-
-.form-container input, select{
-    background-color: #ffffff;
-    border: var(--blue-color) solid 2px;
-}
-
-.datos-dia-form {
-    padding: 20px;
-}
-
-.datos-dia-form input, select{
-    width: 25%;
-    height:  30px;
-}
-
-.datos-paciente-form{
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 10px;
-}
-
-.datos-paciente-form input, select{
-    width: 47%;
-    height:  30px;
-    margin: 10px;
-
-}
-
-.datos-paciente-form select{
-    width: 47.35%;
-    height:  30px;
-}
-
-.barra-campo-form{
-    display: flex;
-    align-items: center;
-    background-color: var(--blue-color);
-    padding: 5px 40px;
-    border-radius: 6px;
-    border: var(--black-color) solid 1px;
-    margin: 10px 0;
-}
-
-.barra-campo-form i{
-    color: var(--black-color);
-    font-size: 20px;
-    width: 2%;
-}
-
-.barra-campo-form h3{
-    color: var(--white-color);
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    font-weight: 300;
-    font-size: 18px;
-    width: 98%;
-}
-
-.informacion-contacto-form{
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 10px;
-
-}
-
-.informacion-contacto-form input, select{
-    width: 47%;
-    height:  30px;
-    margin: 10px;
-}
-
-.informacion-contacto-form select{
-    width: 47.35%;
-    height:  30px;
-}
-
-.estado-salud-form{
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 10px;
-
-}
-
-.estado-salud-form input, select{
-    width: 30%;
-    height:  30px;
-}
-
-.estado-salud-form select{
-    width: 31.35%;
-    height:  30px;
-}
-
-.options{
-    text-align: center;
-    margin: 20px;
-    color:var(--DarkGray-color);
-}
-
-.form-container input, label, select{
-    color:var(--DarkGray-color);
-}
-
-.button-guardar{
-    font-family: var(--Poppins-font);
-    color: var(--white-color);
-    border: var(--DarkOrange-color) 2px solid;
-    border-radius: 7px;
-    text-decoration: none;
-    background-color: var(--DarkOrange-color);
-    padding: 5px 40px 5px 40px;
-    margin: 20px 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.button-guardar-container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.videoprueba{
-    width: 100%;
-}
