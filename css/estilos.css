@@ -244,6 +244,10 @@
     margin-bottom: 6%;
 }
 
+.animate2{
+    display: none;
+}
+
 .sintomas-index {
     display: flex;
     justify-content: center;
@@ -1649,7 +1653,9 @@
         border-radius:  0 0 10px 10px;
     }
 
-
+    .animate2{
+        display: initial;
+    }
 
     /*Desktop css pacienetes*/
 
