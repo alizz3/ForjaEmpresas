@@ -1,43 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
 
-*{
+* {
     margin: 0px;
     padding: 0px;
     font-family: var(--Poppins-font);
-
 }
+
 :root {
-    --black-color:#000000;
+    --black-color: #000000;
     --dark-color: #191919;
     --white-color: #FFFFFF;
     --Red-color: #A40101;
     --blue-color: #2CA3AB;
     --gray-color: #C4C4C4;
-    --DarkGray-color:#444444;
-    --GrayDark--color:#212529;
+    --DarkGray-color: #444444;
+    --GrayDark--color: #212529;
     --Orange-color: #F3610E;
     --DarkOrange-color: #CA5714;
-    --backgroundTable-color:#CCCECF;
-    --blueinputs-color:#E9F6F7;
-    --LightBlue-color:#A8DDE0;
+    --backgroundTable-color: #CCCECF;
+    --blueinputs-color: #E9F6F7;
+    --LightBlue-color: #A8DDE0;
     --darkBlue-color: #161624;
     --Bluebuttoms-color: #1D1B45;
-    --blueindexbutttoms-color:#0E5883;
+    --blueindexbutttoms-color: #0E5883;
     --Poppins-font: 'Poppins', sans-serif;
 }
 
 
 /*css for Index.html*/
-    
-    /*header index.html*/
-#header-index{
+
+/*header index.html*/
+#header-index {
     border-top: 1rem solid var(--DarkGray-color);
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.header-index-container{
+.header-index-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -45,42 +45,48 @@
     width: 100%;
 }
 
-.index-head-right{
+.index-head-right {
     width: 100%;
     display: flex;
     flex-direction: column;
 }
 
-.index-head-top{
+.index-head-top {
     width: 100%;
     display: flex;
     justify-content: space-between;
 }
 
-.head-phone, .head-ubication{
+.head-phone,
+.head-ubication {
     display: flex;
-    align-items: center;    
+    align-items: center;
 }
 
-.head-phone a, .head-ubication a{
+.head-phone a,
+.head-ubication a {
     color: var(--dark-color);
     text-decoration: none;
     font-size: 14px;
 }
 
-.head-phone{
+.head-phone {
     width: 65%;
 }
 
-.head-phone a{
-    font-size:14px;
+.head-phone a {
+    font-size: 14px;
 }
 
-.head-ubication{
+.head-ubication {
     width: 135%;
 }
 
-.button-log-iniciar, .button-log-mobile, .animate2, .button-log-iniciar-tablet, .button-log-iniciar-banner{
+.button-log-iniciar,
+.button-log-mobile,
+.animate2,
+.button-log-iniciar-tablet,
+.button-log-iniciar-banner {
     background-color: var(--blueindexbutttoms-color);
     color: var(--white-color);
     border-radius: 9px;
@@ -88,20 +94,22 @@
     text-decoration: none;
 }
 
-.button-log-iniciar, .button-log-iniciar-banner{
+.button-log-iniciar,
+.button-log-iniciar-banner {
     display: none;
 }
 
 .button-log-mobile {
     font-size: 100%;
 }
-.button-log-iniciar-tablet{
+
+.button-log-iniciar-tablet {
     display: none;
 }
 
 
 
-.index-head-bottom{
+.index-head-bottom {
     background-image: url(../img/1.\ linea.png);
     background-size: 90%;
     background-repeat: no-repeat;
@@ -109,10 +117,10 @@
     background-position-y: 50%;
     color: var(--DarkOrange-color);
     height: 80px;
-    
+
 }
 
-.index-head-bottom img{
+.index-head-bottom img {
     width: 50px;
     display: flex;
     align-items: center;
@@ -126,7 +134,7 @@
 }
 
 
-.index-head-left{
+.index-head-left {
     margin-top: 1%;
     display: flex;
     justify-content: space-between;
@@ -135,7 +143,7 @@
     width: 90%;
 }
 
-.logo-head{
+.logo-head {
     width: 80%;
     max-width: 250px;
 }
@@ -146,7 +154,7 @@
     width: 100%;
 }
 
-.head-phone{
+.head-phone {
     display: flex;
     justify-content: center;
     width: 60%;
@@ -155,33 +163,33 @@
 
 
 /*Banner*/
-.banner{
+.banner {
     background-image: url(../img/2.\ medico.png);
     background-size: cover;
-    background-position-x: right ; 
-    background-repeat: no-repeat;   
+    background-position-x: right;
+    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.banner img{
+.banner img {
     width: 100%;
 }
 
-.banner h2{
+.banner h2 {
     color: var(--Orange-color);
     font-size: 1.2rem;
     font-weight: 400;
 }
 
-.banner h1{
+.banner h1 {
     font-size: 1.5rem;
     font-weight: 400;
     margin: 2%;
 }
 
-.text-banner-index{
+.text-banner-index {
     display: flex;
     text-align: center;
     flex-direction: column;
@@ -192,7 +200,7 @@
     margin: 5% 0;
 }
 
-#barra-forja{
+#barra-forja {
     margin-top: -4px;
     margin-bottom: -4px;
     width: 100%;
@@ -201,42 +209,44 @@
 
 
 /*articulos*/
-        /*contenedor*/
-#information-index{
+/*contenedor*/
+#information-index {
     background-image: url(../img/covid-backgroung.png);
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    padding-top: 20px;    
+    padding-top: 20px;
 
 }
 
-.tittle-information-1, .tittle-information-2{
+.tittle-information-1,
+.tittle-information-2 {
     display: flex;
     align-items: center;
     color: var(--blueindexbutttoms-color);
 }
 
-.tittle-information-1 h2, .tittle-information-2 h2{
+.tittle-information-1 h2,
+.tittle-information-2 h2 {
     font-size: 1.2rem;
     font-weight: 500;
 }
 
-.tittle-information-1 img{
+.tittle-information-1 img {
     width: 2rem;
     margin-right: 10px;
 }
 
-.tittle-information-2 img{
+.tittle-information-2 img {
     width: 2rem;
     padding-bottom: 10;
 }
 
-        /*izquierda*/
-.information-left{
+/*izquierda*/
+.information-left {
     width: 50%;
     float: left;
     display: flex;
@@ -244,7 +254,7 @@
     margin-bottom: 6%;
 }
 
-.animate2{
+.animate2 {
     display: none;
 }
 
@@ -254,14 +264,14 @@
     font-size: 1rem;
 }
 
-.sintomas-index ul{
+.sintomas-index ul {
     list-style-image: url(../img/6.\ check.svg);
     font-weight: 200;
-    
+
 }
 
-        /*Derecha*/
-.information-right{
+/*Derecha*/
+.information-right {
     width: 50%;
     display: flex;
     justify-content: center;
@@ -270,7 +280,7 @@
     float: right;
 }
 
-.hacer-index p{
+.hacer-index p {
     font-size: 1rem;
     font-weight: 200;
     margin-top: 10px;
@@ -278,21 +288,22 @@
 
 }
 
-.article-2, .article-1{
+.article-2,
+.article-1 {
     width: 100%;
 }
 
-.oms-curso{
+.oms-curso {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.oms-curso img{
+.oms-curso img {
     width: 100px;
 }
 
-.oms-curso a{
+.oms-curso a {
     text-decoration: none;
     color: var(--blueindexbutttoms-color);
     font-weight: 500;
@@ -303,14 +314,18 @@
 
 
 /*other information*/
-#other-information-index{
+#other-information-index {
     display: flex;
     flex-direction: column;
 }
 
 
 
-.other-information-1, .other-information-2, .other-information-3, .other-information-4, .other-information-5{
+.other-information-1,
+.other-information-2,
+.other-information-3,
+.other-information-4,
+.other-information-5 {
     text-decoration: none;
     background-color: var(--darkBlue-color);
     color: var(--white-color);
@@ -318,20 +333,23 @@
     padding: 10px 0 10px 5px;
 }
 
-.other-information-2, .other-information-3, .other-information-4, .other-information-5{
+.other-information-2,
+.other-information-3,
+.other-information-4,
+.other-information-5 {
     border-top: var(--DarkGray-color) solid 10px;
 }
 
 /*footer*/
-#footer{
+#footer {
     display: flex;
     justify-content: center;
     padding: 10px 0 30px 0px;
     background-color: var(--black-color);
-    
+
 }
 
-#footer h6{
+#footer h6 {
     color: var(--white-color);
     font-weight: 300;
 }
@@ -356,7 +374,7 @@
     position: absolute;
 }
 
-#container-login{
+#container-login {
     height: 39rem;
     display: flex;
     flex-direction: column;
@@ -366,17 +384,17 @@
     max-width: 35rem;
 }
 
-.button-login-vol{
+.button-login-vol {
     display: flex;
     justify-content: flex-end;
 }
 
-.log-login{
+.log-login {
     height: 900%;
 }
 
-.forja-login{
-    background-color:var(--LightBlue-color);
+.forja-login {
+    background-color: var(--LightBlue-color);
     border-radius: 10px 10px 0 0;
     display: flex;
 
@@ -387,7 +405,7 @@
     height: 30%;
 }
 
-.forja-login img{
+.forja-login img {
     width: 100%;
     max-width: 300px;
 }
@@ -399,36 +417,39 @@
     text-align: center;
 }
 
-.datos-login{
+.datos-login {
     background-color: var(--white-color);
     border-radius: 0 0 10px 10px;
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     justify-content: space-evenly;
     width: 100%;
     height: 70%;
 }
 
-.login-group{
+.login-group {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.login-group input{
+.login-group input {
     background-color: var(--blueinputs-color);
     margin-top: 5px;
     border-radius: 19px;
     height: 30px;
     width: 85%;
     border: 2px solid var(--LightBlue-color);
+    padding-left: 15px;
+
 }
 
-.button-login-ing{
+.button-login-ing {
     text-align: center;
 }
 
-.button-log-volver, .button-log-ingresar{
+.button-log-volver,
+.button-log-ingresar {
     font-family: var(--Poppins-font);
     color: var(--white-color);
     border: var(--blue-color) 2px solid;
@@ -436,7 +457,7 @@
     text-decoration: none;
 }
 
-.button-log-volver{
+.button-log-volver {
     background-color: var(--Bluebuttoms-color);
     margin-bottom: 10px;
     padding: 5px 10px 5px 10px;
@@ -446,16 +467,21 @@
     display: none;
 }
 
-.button-log-ingresar{
+.button-log-ingresar {
     background-color: var(--DarkOrange-color);
     padding: 5px 40px 5px 40px;
+    cursor: pointer;
 }
 
-.forgot, .login-label{
+.forgot,
+.login-label {
     color: var(--dark-color);
     font-weight: 500;
 }
 
+.forgot {
+    text-align: center;
+}
 
 
 
@@ -478,6 +504,7 @@
     height: 100%;
     width: 50%;
     margin: 0;
+    min-width: 320px;
 }
 
 /*lado izquierdo*/
@@ -486,6 +513,7 @@
 
 
     width: 20%;
+    min-width: 64px;
     /*border: 1px solid #2CA3AB;*/
     background-color: var(--darkBlue-color);
 
@@ -503,17 +531,18 @@
     top: 16%;
 }
 
-.logo-palomita{
+.logo-palomita {
     width: 90%;
     max-width: 100px;
 }
+
 .logo {
     max-width: 200px;
     display: none;
 
 }
 
-.logo-menu-db img:hover{
+.logo-menu-db img:hover {
     transform: scale(1.1);
     transition-duration: 0.3s;
 }
@@ -540,7 +569,7 @@
 
 }
 
-.buttons--db h4{
+.buttons--db h4 {
     display: none;
 }
 
@@ -562,9 +591,9 @@
     position: absolute;
     right: 0px;
     float: right;
+    min-width: 256px;
     width: 80%;
     height: 100%;
-
 
 
     background-image: linear-gradient(rgba(255, 255, 255, 0.658), rgba(255, 255, 255, 0.658)), url(../img/13.\ guerreros.png);
@@ -572,22 +601,30 @@
     background-position-x: right;
     background-position-y: bottom;
     background-size: 200px;
-    
+
 }
 
-.img-dashboard{
+@media screen and (max-width:301px) {
+    #bienvenidos {
+        left: 64px;
+    }
+}
+
+.img-dashboard {
     position: absolute;
     width: 100%;
     background-color: blue;
 }
 
-.derecha{
+.derecha {
     position: relative;
-    background: linear-gradient(174.19deg, #FFFFFF 61.71%, rgba(255, 255, 255, 0) 64.54%);    height: 80%;
+    background: linear-gradient(174.19deg, #FFFFFF 61.71%, rgba(255, 255, 255, 0) 64.54%);
+    height: 80%;
     padding: 1rem;
-    border-radius: 50px 50px 0px 0px ;
+    border-radius: 50px 50px 0px 0px;
     top: 3.5rem;
 }
+
 /*usuario*/
 .container-button-user-db {
     display: flex;
@@ -652,12 +689,29 @@
 }
 
 .digite-input {
-    width: 96%;
+    font-size: 1rem;
+    width: 100%;
     max-width: 300px;
     margin-right: 10px;
-    padding-bottom: 5px;
+    padding-bottom: 2px;
     border: 0;
+    
     border-bottom: 2px solid var(--Bluebuttoms-color);
+}
+
+.digite-input:focus{
+    outline:none ;
+}
+
+.digite-input::placeholder {
+    text-align: center;
+    padding: 10px;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
 }
 
 ::placeholder {
@@ -692,106 +746,189 @@
 
 /*css for Dashboard-user.html*/
 
-.dashuser-container{
-    height: 50%;
+.modal {
+    min-width: 256px;
+    
+    height: 60%;
+    min-height: 432px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 70%;
-    max-width: 350px;
+    width: 80%;
 
+    max-width: 520px;
+    overflow: hidden;
     position: absolute;
-    left: 25%;
-    top: 25%;
+    left: 15%;
+    top: 15%;
 
-    margin-left:auto;
-    margin-right:auto;
-    left:0;
-    right:0;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
 
-    z-index: 2;
+    z-index: 20000;
+    background-color: var(--white-color);
+
+    padding: 10px 0;
+    border-radius: 10px;
+
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.51);
+    -moz-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.51);
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.51);
+
+    
+
+    opacity: 0;
+    pointer-events: none;
+}
+
+.modal_Show{
+    opacity: 1;
+    pointer-events: initial;
+    transition: transform 2s;
+    transform: scale(1.1);
     
 }
 
-.dashuser-logo{
-    background-color: var(--white-color);
+.dashuser-logo {
     border-radius: 10px 10px 0 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 45%;
+    height: 20%;
 }
 
-.dashuser-logo img{
+.dashuser-logo img {
     width: 90%;
     max-width: 300px;
 }
 
 .dashuser-text {
-    background-color: var(--white-color);
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
     text-align: center;
     width: 100%;
-    height: 35%;
+    height: 15%;
 }
 
-.dashuser-text h4{
+.dashuser-text,
+h4 {
     font-weight: 400;
     text-justify: center;
 }
 
-.dashuser-buttons{
+.tabla {
+    min-width: 235px;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45%;
+    overflow-x: auto;
+}
+
+table {
+    transition: all 2s;
+    border-collapse: collapse;
+    width: 100%;
+    margin: 0 ;
+
+}
+
+.table-hidde{
+    height: 0%;
+}
+
+.table-show{
+    height: 45%;
+}
+
+.tabla th,
+.tabla td {
+    padding: 2px 10px;
+    text-align: center;
+    border: var(--Bluebuttoms-color) 2px solid;
+}
+
+.dashuser-buttons {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    background-color: var(--white-color);
     width: 100%;
     height: auto;
     justify-content: center;
-    border-radius:  0 0 10px 10px;
+    align-items: center;
+    border-radius: 0 0 10px 10px;
 }
 
-.button-dashuser1{
+.button-dashuser1 {
     background-color: var(--DarkOrange-color);
+    height: 20px;
     padding: 5px 20px 5px 20px;
     color: var(--white-color);
     border: var(--blue-color) 2px solid;
     border-radius: 7px;
     text-decoration: none;
     margin-bottom: 25px;
-    margin: 0 5px 25px 0;
+    margin: 5px 0px 0;
     display: flex;
     align-items: center;
     justify-content: center;
     font-weight: 100;
 }
 
-.button-dashuser2 h4, .button-dashuser1 h4{
-    font-weight: 100;
+.button-dashuser1:hover {
+    background-color: var(--white-color);
+    color: var(--DarkOrange-color);
+    border: var(--DarkOrange-color) 2px solid;
+    font-weight: 800;
+}
+
+
+
+.button-dashuser2 h4,
+.button-dashuser1 h4 {
+    font-weight: 400;
 
 }
 
-.button-dashuser2{
-    background-color: var(--blueindexbutttoms-color);
+.button-dashuser2 {
+    background-color: var(--Bluebuttoms-color);
+    height: 20px;
     padding: 5px 20px 5px 20px;
     color: var(--white-color);
     border: var(--blue-color) 2px solid;
     border-radius: 7px;
     text-decoration: none;
     margin-bottom: 25px;
-    margin: 0 0 25px 5px;
+    margin: 5px 0 0 5px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.capa{
+.button-dashuser2:hover {
+    background-color: var(--white-color);
+    color: var(--blueindexbutttoms-color);
+    border: var(--blueindexbutttoms-color) 2px solid;
+    font-weight: 800;
+}
+
+.capa {
+    opacity: 0;
     position: absolute;
     width: 100%;
+    min-width: 320px;
     height: 100%;
     background-color: #00000065;
+    z-index: 10;
+    pointer-events: none;
+    transition: all 1s;
 }
 
 
@@ -800,7 +937,7 @@
 
 
 /*css for pacientes.html*/
-#header-pacientes-container{
+#header-pacientes-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -808,24 +945,24 @@
     padding: 10px;
 }
 
-.logo-header-pacientes- img{
+.logo-header-pacientes- img {
     height: 50px;
 }
 
-#main-pacientes-container{
+#main-pacientes-container {
     height: 74%;
 }
 
-.footer-pacientes{
+.footer-pacientes {
     position: static;
     display: none;
 }
 
-.footer-pacientes h6{
+.footer-pacientes h6 {
     margin-bottom: 1px;
 }
 
-.buttons-header-pacientes i{
+.buttons-header-pacientes i {
     font-size: 20px;
     padding: 10px 9px;
     margin: 5px;
@@ -836,19 +973,19 @@
 
 }
 
-.buttons-header-pacientes{
+.buttons-header-pacientes {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-#main-pacientes-container{
+#main-pacientes-container {
     width: 80%;
     height: 70vh;
     margin-left: 5%;
 }
 
-.left-button-pacientes{
+.left-button-pacientes {
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -856,36 +993,36 @@
     margin: 50px 0 10px 0;
 }
 
-.right-button-pacientes{
+.right-button-pacientes {
     margin-left: 80px;
 }
 
-.button-pacientes1{
+.button-pacientes1 {
     background-color: var(--DarkOrange-color);
-    padding: 10px ;
+    padding: 10px;
     color: var(--white-color);
     border-radius: 7px;
     text-decoration: none;
 }
 
-.button-pacientes2{
+.button-pacientes2 {
     background-color: var(--Bluebuttoms-color);
     border: var(--blue-color) solid 1px;
-    padding: 5px ;
+    padding: 5px;
     color: var(--white-color);
     border-radius: 7px;
     text-decoration: none;
-    
+
 }
 
-.n-doc{
+.n-doc {
     border: var(--blue-color) solid 2px;
     max-width: 212px;
     width: 40%;
     overflow: auto;
 }
 
-.text-main-pacientes{
+.text-main-pacientes {
     color: var(--Bluebuttoms-color);
     display: flex;
     justify-content: center;
@@ -893,11 +1030,11 @@
     margin: 20px 0 50px 0;
 }
 
-.text-main-pacientes-h2{
+.text-main-pacientes-h2 {
     border-bottom: var(--blueindexbutttoms-color) solid 2px;
 }
 
-.container-table-main-pacientes{
+.container-table-main-pacientes {
     overflow: auto;
 }
 
@@ -933,30 +1070,32 @@
     background-color: #dbdbdb;
 }
 
-.but-pacientes1, .but-pacientes2{
-    padding: 5px ;
+.but-pacientes1,
+.but-pacientes2 {
+    padding: 5px;
     color: var(--white-color);
     border-radius: 7px;
     text-decoration: none;
     font-size: 15px;
-    
 }
 
-.button-pacientes1 h8{
+.button-pacientes1 h8 {
     display: none;
 }
 
-.but-pacientes1 h7, .but-pacientes2 h7{
+.but-pacientes1 h7,
+.but-pacientes2 h7 {
     display: none;
 }
 
-.but-pacientes1{
+.but-pacientes1 {
     background-color: var(--blue-color);
     color: var(--black-color);
 }
 
-.but-pacientes2{
+.but-pacientes2 {
     background-color: var(--Red-color);
+    width: 29.13px;
 }
 
 
@@ -973,17 +1112,17 @@
 
 /*css for formulario.html*/
 
-.tittle-form{
+.tittle-form {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.tittle-form h2{
+.tittle-form h2 {
     background-color: var(--Bluebuttoms-color);
     color: var(--white-color);
     border-radius: 9px;
-    border: var(--blue-color) solid 3px; 
+    border: var(--blue-color) solid 3px;
     width: 98%;
     text-align: center;
     padding: 5px;
@@ -992,23 +1131,24 @@
 
 }
 
-.border-form{
+.border-form {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: var(--DarkGray-color) solid 2px;    
+    border: var(--DarkGray-color) solid 2px;
     margin: 10px;
     padding: 30px;
 }
 
-.form-container{
+.form-container {
     background-color: var(--gray-color);
     padding: 30px 30px;
     border-radius: 9px;
     border: var(--DarkGray-color) solid 2px;
 }
 
-.form-container input, select{
+.form-container input,
+select {
     background-color: #ffffff;
     border: var(--blue-color) solid 2px;
 }
@@ -1017,12 +1157,13 @@
     padding: 20px;
 }
 
-.datos-dia-form input, select{
+.datos-dia-form input,
+select {
     width: 50%;
-    height:  30px;
+    height: 30px;
 }
 
-.datos-paciente-form{
+.datos-paciente-form {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -1030,19 +1171,20 @@
     padding: 10px;
 }
 
-.datos-paciente-form input, select{
+.datos-paciente-form input,
+select {
     width: 100%;
-    height:  30px;
+    height: 30px;
     margin: 10px;
 
 }
 
-.datos-paciente-form select{
+.datos-paciente-form select {
     width: 100%;
-    height:  30px;
+    height: 30px;
 }
 
-.barra-campo-form{
+.barra-campo-form {
     display: flex;
     align-items: center;
     background-color: var(--blue-color);
@@ -1052,13 +1194,13 @@
     margin: 10px 0;
 }
 
-.barra-campo-form i{
+.barra-campo-form i {
     color: var(--black-color);
     font-size: 20px;
     width: 2%;
 }
 
-.barra-campo-form h3{
+.barra-campo-form h3 {
     color: var(--white-color);
     justify-content: center;
     align-items: center;
@@ -1068,7 +1210,7 @@
     width: 98%;
 }
 
-.informacion-contacto-form{
+.informacion-contacto-form {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -1077,18 +1219,19 @@
 
 }
 
-.informacion-contacto-form input, select{
+.informacion-contacto-form input,
+select {
     width: 100%;
-    height:  30px;
+    height: 30px;
     margin: 10px;
 }
 
-.informacion-contacto-form select{
+.informacion-contacto-form select {
     width: 100%;
-    height:  30px;
+    height: 30px;
 }
 
-.estado-salud-form{
+.estado-salud-form {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -1097,27 +1240,30 @@
 
 }
 
-.estado-salud-form input, select{
+.estado-salud-form input,
+select {
     width: 100%;
-    height:  30px;
+    height: 30px;
 }
 
-.estado-salud-form select{
+.estado-salud-form select {
     width: 100%;
-    height:  30px;
+    height: 30px;
 }
 
-.options{
+.options {
     text-align: center;
     margin: 20px;
-    color:var(--DarkGray-color);
+    color: var(--DarkGray-color);
 }
 
-.form-container input, label, select{
-    color:var(--DarkGray-color);
+.form-container input,
+label,
+select {
+    color: var(--DarkGray-color);
 }
 
-.button-guardar{
+.button-guardar {
     font-family: var(--Poppins-font);
     color: var(--white-color);
     border: var(--DarkOrange-color) 2px solid;
@@ -1129,19 +1275,20 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 
-.button-guardar-container{
+.button-guardar-container {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.videoprueba{
+.videoprueba {
     width: 100%;
 }
 
-.iconform{
+.iconform {
     width: 20px;
     margin-right: 20px;
 }
@@ -1153,66 +1300,66 @@
 /*responsive tablet*/
 @media screen and (min-width:768px) {
     /*Tablet css for Index.html*/
-    
+
     /*header index.html*/
-    .logo-head{
+    .logo-head {
         width: 30%;
     }
 
-    .button-log-iniciar-tablet{
+    .button-log-iniciar-tablet {
         display: initial;
     }
 
-    .button-log-mobile{
+    .button-log-mobile {
         display: none;
     }
 
-    .logo-head{
+    .logo-head {
         width: 300px;
     }
-    
-    .button-index-head{
+
+    .button-index-head {
         display: none;
     }
 
-    .index-head-top{
+    .index-head-top {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
     }
 
-    .button-index-head{
+    .button-index-head {
         display: none;
     }
 
-    .button-index-head{
+    .button-index-head {
         display: none;
     }
 
-    .button-log-iniciar-banner{
+    .button-log-iniciar-banner {
         display: initial;
     }
 
 
     /*banner*/
-    .banner{
-        background-position-x: right ; 
+    .banner {
+        background-position-x: right;
 
     }
 
-    
-    .banner h2{
-        
+
+    .banner h2 {
+
         font-size: 2rem;
         font-weight: 400;
     }
 
-    .banner h1{
+    .banner h1 {
         font-size: 3rem;
         font-weight: 400;
     }
 
-    .text-banner-index{
+    .text-banner-index {
         display: flex;
         text-align: center;
         flex-direction: column;
@@ -1221,25 +1368,30 @@
         width: 60%;
     }
 
-    #barra-forja{
+    #barra-forja {
         height: 2.5rem;
     }
 
 
 
     /*articulos*/
-    #information-index{
+    #information-index {
         flex-direction: row;
         align-items: flex-start;
         justify-content: center;
         width: 100%;
     }
 
-    .information-left, .information-right{
+    .information-left,
+    .information-right {
         margin: 1rem;
     }
 
-    .other-information-1, .other-information-2, .other-information-3, .other-information-4, .other-information-5{
+    .other-information-1,
+    .other-information-2,
+    .other-information-3,
+    .other-information-4,
+    .other-information-5 {
         font-size: 1rem;
     }
 
@@ -1247,14 +1399,14 @@
 
     /*Tablet css for login.html 768*/
 
-    #container-login{
+    #container-login {
         width: 60%;
         max-width: 27rem;
         height: 100%;
-    
+
     }
 
-    .button-log-volver h5{
+    .button-log-volver h5 {
         display: initial;
     }
 
@@ -1262,15 +1414,15 @@
         display: none;
     }
 
-    .forja-login{
+    .forja-login {
         height: 40%;
     }
 
-    .datos-login{
+    .datos-login {
         height: 60%;
     }
 
-    .login-group input{
+    .login-group input {
         width: 70%;
     }
 
@@ -1282,23 +1434,23 @@
 
 
 
-    
+
 
     /*Tablet css for Dashboard.html*/
 
 
-    .img-dashboard{
+    .img-dashboard {
         display: none;
         position: initial;
     }
 
-    .derecha{
+    .derecha {
         border-radius: 0;
         position: initial;
         background-color: rgba(255, 255, 255, 0.733);
     }
 
-    .digite{
+    .digite {
         flex-direction: row;
     }
 
@@ -1306,7 +1458,9 @@
         width: 300px;
         max-width: 300px;
     }
-    
+
+
+
     .button-user-db h4 {
         font-family: var(--Poppins-font);
         font-weight: 100;
@@ -1320,23 +1474,23 @@
     .footer-db {
         display: initial;
         position: fixed;
-        bottom: 0px;    
-        margin-right: 0px;
+        bottom: 0px;
+        margin-left: -20px;
         height: 50px;
     }
-    
-    .button-user-db a{
+
+    .button-user-db a {
         border: 4px solid var(--Orange-color);
     }
 
 
-    .dashuser-buttons{
+    .dashuser-buttons {
         display: flex;
         flex-direction: row;
     }
 
     /*tablet css pacientes responsive*/
-    .n-doc{
+    .n-doc {
         border: var(--blue-color) solid 2px;
         max-width: 212px;
         width: 80%;
@@ -1352,11 +1506,11 @@
 
 /*responsive Desktop*/
 @media screen and (min-width: 1024px) {
-    
+
     /*Desktopcss for Index.html*/
-    
+
     /*header index.html*/
-    .header-index-container{
+    .header-index-container {
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -1364,53 +1518,55 @@
         margin-top: 1%;
     }
 
-    .index-head-right{
+    .index-head-right {
         width: 70%;
         float: right;
         display: flex;
         flex-direction: column;
     }
-    
-    .index-head-top{
+
+    .index-head-top {
         display: flex;
         align-items: center;
         display: flex;
     }
-    
-    .head-phone, .head-ubication{
+
+    .head-phone,
+    .head-ubication {
         display: flex;
         align-items: center;
-        width: auto;        
+        width: auto;
     }
-    
-    .head-phone a, .head-ubication a{
+
+    .head-phone a,
+    .head-ubication a {
         color: var(--dark-color);
         text-decoration: none;
-    }   
-        
-    .button-log-iniciar{
+    }
+
+    .button-log-iniciar {
         display: initial;
     }
 
-    .button-index-head{
+    .button-index-head {
         display: initial;
         width: auto;
 
     }
 
-    .button-log-mobile{
+    .button-log-mobile {
         display: none;
     }
 
-    .button-log-iniciar-tablet{
+    .button-log-iniciar-tablet {
         display: none;
     }
-    
+
     .button-index-head {
         margin-left: 100px;
     }
-    
-    .index-head-bottom{
+
+    .index-head-bottom {
         background-image: url(../img/1.\ linea.png);
         background-size: 90%;
         background-repeat: no-repeat;
@@ -1418,49 +1574,49 @@
         background-position-y: 50%;
         color: var(--DarkOrange-color);
         height: 80px;
-        
+
     }
-    
-    .index-head-bottom img{
+
+    .index-head-bottom img {
         width: 50px;
         display: flex;
         align-items: flex-start;
     }
-    
-    .index-head-left{
+
+    .index-head-left {
         display: flex;
         justify-content: center;
         align-items: flex-end;
         float: left;
         width: 30%;
     }
-    
-        /*Banner*/
-    .banner{
+
+    /*Banner*/
+    .banner {
         background-image: url(../img/2.\ medico.png);
         background-size: cover;
-        background-position-x: right ;    
+        background-position-x: right;
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
 
-    .banner img{
+    .banner img {
         width: 100%;
     }
 
-    .banner h2{
+    .banner h2 {
         color: var(--Orange-color);
         font-size: 3rem;
         font-weight: 400;
     }
 
-    .banner h1{
+    .banner h1 {
         font-size: 4rem;
         font-weight: 400;
     }
 
-    .text-banner-index{
+    .text-banner-index {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -1469,13 +1625,13 @@
         padding: 1%;
     }
 
-    #barra-forja{
+    #barra-forja {
         margin-top: -4px;
         margin-bottom: -4px;
         width: 100%;
     }
 
-    #information-index{
+    #information-index {
         background-color: pink;
         flex-direction: row;
         align-items: flex-start;
@@ -1484,32 +1640,34 @@
 
 
     /*articulos*/
-    .tittle-information-1 h2, .tittle-information-2 h2{
+    .tittle-information-1 h2,
+    .tittle-information-2 h2 {
         font-size: 25px;
         font-weight: 500;
     }
-    
-    .tittle-information-1 img{
+
+    .tittle-information-1 img {
         width: 50px;
         margin-right: 5%;
     }
-    
-    .tittle-information-2 img{
+
+    .tittle-information-2 img {
         width: 60px;
         padding-bottom: 10;
     }
-    
-    .article-2, .article-1{
+
+    .article-2,
+    .article-1 {
         width: 60%;
     }
-    
-        .information-left{
+
+    .information-left {
         margin-bottom: 9%;
     }
 
-    
-            /*izquierda*/
-    .information-left{
+
+    /*izquierda*/
+    .information-left {
         width: 50%;
         height: 294px;
         float: left;
@@ -1518,21 +1676,21 @@
         align-items: flex-start;
         margin-bottom: 0%;
     }
-    
+
     .sintomas-index {
         display: flex;
         justify-content: center;
         font-size: 19px;
     }
-    
-    .sintomas-index ul{
+
+    .sintomas-index ul {
         list-style-image: url(../img/6.\ check.svg);
         font-weight: 200;
-        
+
     }
-    
-            /*Derecha*/
-    .information-right{
+
+    /*Derecha*/
+    .information-right {
         width: 50%;
         display: flex;
         justify-content: center;
@@ -1540,43 +1698,49 @@
         flex-direction: column;
         float: right;
     }
-    
-    .hacer-index p{
+
+    .hacer-index p {
         font-size: 19px;
         font-weight: 200;
         margin-top: 10px;
     }
-    
-    .article-2{
+
+    .article-2 {
         width: 66%;
     }
-    
-    .oms-curso{
+
+    .oms-curso {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    
-    .oms-curso img{
+
+    .oms-curso img {
         width: 100px;
     }
-    
-    .oms-curso a{
+
+    .oms-curso a {
         text-decoration: none;
         color: var(--blueindexbutttoms-color);
         font-weight: 500;
         margin-bottom: 10px
     }
 
-    .other-information-1, .other-information-2, .other-information-3, .other-information-4, .other-information-5{
+    .other-information-1,
+    .other-information-2,
+    .other-information-3,
+    .other-information-4,
+    .other-information-5 {
         font-size: 1.2rem;
     }
 
-    .sintomas-index, .hacer-index {
+    .sintomas-index,
+    .hacer-index {
         font-size: 1.2rem;
     }
-    
-    .tittle-information-1 h2, .tittle-information-2 h2{
+
+    .tittle-information-1 h2,
+    .tittle-information-2 h2 {
         font-size: 2rem;
     }
 
@@ -1584,142 +1748,127 @@
 
     /*Desktop css for login.html 1023*/
 
-    #container-login{
+    #container-login {
         width: 60%;
         max-width: 60%;
-        height: 90%;        
+        height: 90%;
     }
 
     .button-log-volver i {
         display: initial;
     }
 
-    .forja-login{
+    .forja-login {
         height: 42%;
     }
 
-    .datos-login{
+    .datos-login {
         height: 58%;
     }
 
-    .login-group input{
+    .login-group input {
         width: 60%;
     }
 
 
 
 
-    
+
     /*Desktop css for Dashboard.html*/
 
-    .derecha{
+    .derecha {
         background-color: rgba(255, 255, 255, 0);
     }
-    
-    .buttons--db h4{
+
+    .buttons--db h4 {
         display: initial;
     }
 
-    .logo{
+    .logo {
         display: initial;
     }
-    
-    .logo-palomita{
+
+    .logo-palomita {
         display: none;
     }
 
 
-    .dashuser-container{
-        height: 40%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        width: 30%;
-    
-        position: absolute;
-        left: 25%;
-        top: 25%;
-    
-        margin-left:auto;
-        margin-right:auto;
-        left:0;
-        right:0;
-        
-    }
 
-    .dashuser-buttons{
+    .dashuser-buttons {
         display: flex;
-        
-        background-color: var(--white-color);
         width: 100%;
         height: 20%;
         justify-content: center;
-        border-radius:  0 0 10px 10px;
+        border-radius: 0 0 10px 10px;
     }
 
-    .animate2{
+    .animate2 {
         display: initial;
     }
 
     /*Desktop css pacienetes*/
 
-    .button-pacientes1 h8{
+    .button-pacientes1 h8 {
         display: initial;
     }
 
-    .but-pacientes1 h7, .but-pacientes2 h7{
+    .but-pacientes1 h7,
+    .but-pacientes2 h7 {
         display: initial;
     }
 
     /*Desktop css for formulario.html*/
 
-    .datos-paciente-form input, select{
+    .datos-paciente-form input,
+    select {
         width: 47%;
-        height:  30px;
+        height: 30px;
         margin: 10px;
-    
+
     }
-    
-    .datos-paciente-form select{
+
+    .datos-paciente-form select {
         width: 47.35%;
-        height:  30px;
+        height: 30px;
     }
 
 
-    .informacion-contacto-form input, select{
+    .informacion-contacto-form input,
+    select {
         width: 47%;
-        height:  30px;
+        height: 30px;
         margin: 10px;
     }
-    
-    .informacion-contacto-form select{
+
+    .informacion-contacto-form select {
         width: 47.35%;
-        height:  30px;
+        height: 30px;
     }
 
-    .estado-salud-form input, select{
+    .estado-salud-form input,
+    select {
         width: 30%;
-        height:  30px;
-    }
-    
-    .estado-salud-form select{
-        width: 31.35%;
-        height:  30px;
+        height: 30px;
     }
 
-    .datos-dia-form input, select{
+    .estado-salud-form select {
+        width: 31.35%;
+        height: 30px;
+    }
+
+    .datos-dia-form input,
+    select {
         width: 25%;
-        height:  30px;
+        height: 30px;
     }
 }
 
 /*responsive 1300px*/
 @media screen and (min-width:1300px) {
-    
+
     /*Desktop css for login.html 1023*/
 
-    #login{
+    #login {
         background-color: #7D8787;
         width: 100%;
         display: flex;
@@ -1727,25 +1876,25 @@
         justify-content: center;
     }
 
-    #container-login{
+    #container-login {
         height: 39rem;
         margin-top: 1%;
     }
 
-    .log-login{
+    .log-login {
         height: 900%;
         display: flex;
         flex-direction: row;
         justify-content: center;
     }
 
-    .forja-login{
-        background-color:var(--LightBlue-color);
+    .forja-login {
+        background-color: var(--LightBlue-color);
         border-radius: 10px 0px 0 10px;
         height: 28rem;
     }
 
-    .forja-login img{
+    .forja-login img {
         width: 350px;
         max-width: 400px;
     }
@@ -1755,11 +1904,11 @@
         font-size: 1.7rem;
     }
 
-    .datos-login{
+    .datos-login {
         background-color: var(--white-color);
         border-radius: 0 10px 10px 0;
         display: flex;
-        flex-direction:column;
+        flex-direction: column;
         justify-content: space-evenly;
         height: 28rem;
     }
@@ -1767,15 +1916,15 @@
     .button-log-volver h5 {
         font-size: 0.8rem;
     }
-    
-    .login-group input{
-        
+
+    .login-group input {
+
         height: 30px;
         width: 85%;
         border: 2px solid var(--LightBlue-color);
     }
 
-    .login-group label{
+    .login-group label {
         text-align: center;
         font-size: 1.2rem;
     }
@@ -1784,7 +1933,7 @@
 
     /*1023 Desktop css for formulario.html*/
 
-    
+
 
 }
 
@@ -1796,33 +1945,81 @@
 
 
 /*!Animaciones*/
-.syringe{
-    animation: anima1 2s linear 1s 2 alternate
-    
+
+
+.logo-palomita,
+.head-phone img,
+.head-ubication img,
+.syringe,
+.l-f-l,
+.logo-header-pacientes- {
+    animation: animated_div 3s 2;
 }
 
-.l-f-l, .text-bienve-db h1, .text-main-pacientes-h2, .logo-header-pacientes-{
-    animation:animated_div 3s 2;
+@keyframes animated_div {
+    0% {
+        transform: rotate(0deg);
+        left: 0px;
+    }
+
+    25% {
+        transform: scale(1.1);
+        left: 0px;
+    }
+
+    /*50% {transform: rotate(0deg); left:0px;}*/
+    55% {
+        transform: scale(0.9);
+        left: 0px;
+    }
+
+    70% {
+        transform: rotate(0deg);
+        left: 0px;
+    }
+
+    /*80% {transform: scale(1.1); left:0px;}*/
+    100% {
+        transform: rotate(0deg);
+        left: 0px;
+    }
 }
 
-@keyframes animated_div
-{
-0% {transform: rotate(0deg); left:0px;}
-25% {transform: rotate(20deg); left:0px;}
-50% {transform: rotate(0deg); left:500px;}
-55% {transform: rotate(0deg); left:500px;}
-70% {transform: rotate(0deg); left:500px;}
-100% {transform: rotate(-360deg); left:0px;}
-}
-
-.text-banner-index h1{
+.text-banner-index h1,
+.text-bienve-db h1,
+.text-main-pacientes-h2 {
     animation: anima1 4s linear 1s 1 alternate;
 }
 
 @keyframes anima1 {
-    0%   {color:red; left:0px; top:0px;}
-    25%  {color:rgb(0, 0, 0); left:200px; top:0px;}
-    50%  {color:#F3610E; left:200px; top:200px;}
-    75%  {color:red; left:0px; top:200px;}
-    100% {color:#ffffff; left:0px; top:0px;transform: rotate(360deg);}
+    0% {
+        color: #F3610E;
+        left: 0px;
+        top: 0px;
     }
+
+    25% {
+        color: var(--Bluebuttoms-color);
+        left: 200px;
+        top: 0px;
+    }
+
+    50% {
+        color: #F3610E;
+        left: 200px;
+        top: 200px;
+    }
+
+    65% {
+        color: var(--Bluebuttoms-color);
+        ;
+        left: 0px;
+        top: 200px;
+    }
+
+    100% {
+        color: #F3610E;
+        left: 0px;
+        top: 0px;
+    }
+}
