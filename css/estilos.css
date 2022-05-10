@@ -836,8 +836,10 @@ table {
     transition: all 2s;
     border-collapse: collapse;
     width: 100%;
-    margin: 0 ;
-
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .table-hidde{

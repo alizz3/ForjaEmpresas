@@ -12,7 +12,7 @@ var cedula = document.querySelector('.cedula_modal');
 var nombre = document.querySelector('.name_modal');
 var dosis = document.querySelector('.dosis_modal');
 
-var tabla= document.querySelector('.tabla');
+var tabla = document.querySelector('.tabla');
 var dosisUna = document.querySelector('.dosisUna');
 var dosisDos = document.querySelector('.dosisDos');
 var dosisTres = document.querySelector('.dosisTres');
@@ -40,9 +40,9 @@ openModal.addEventListener('click', function (e) {
         tabla.classList.add('table-show')
         tabla.classList.remove('table-hidde')
 
-        dosisUna.style.display='initial'
-        dosisDos.style.display='none';
-        dosisTres.style.display='none';
+        dosisUna.style.display = 'init'
+        dosisDos.style.display = 'none';
+        dosisTres.style.display = 'none';
 
         console.log(cedula)
     }
@@ -60,9 +60,9 @@ openModal.addEventListener('click', function (e) {
         tabla.classList.remove('table-hidde')
 
 
-        dosisDos.style.display='initial'
-        dosisUna.style.display='none';
-        dosisTres.style.display='none';
+        dosisDos.style.display = 'flex'
+        dosisUna.style.display = 'none';
+        dosisTres.style.display = 'none';
 
         console.log(cedula)
     }
@@ -81,9 +81,9 @@ openModal.addEventListener('click', function (e) {
 
 
 
-        dosisTres.style.display='initial'
-        dosisUna.style.display='none';
-        dosisDos.style.display='none';
+        dosisTres.style.display = 'initial'
+        dosisUna.style.display = 'none';
+        dosisDos.style.display = 'none';
 
         console.log(cedula)
     }
@@ -97,9 +97,10 @@ openModal.addEventListener('click', function (e) {
         dosis.innerHTML = '¿Desea registrar paciente?';
         textButtonModal.innerHTML = 'si, ¡gracias!';
         textButtonModal.style.display = 'flex';
-        
+
 
         tabla.classList.add('table-hidde')
+        tabla.classList.remove('table-show')
 
         console.log(cedula)
     }
@@ -108,13 +109,6 @@ openModal.addEventListener('click', function (e) {
 closeModal.addEventListener('click', function (e) {
     e.preventDefault();
     capa.style.opacity = "0";
-    //modal.style.pointer = "initial"
+
     modal.classList.remove('modal_Show')
 })
-
-/*openModal.addEventListener('click',(e)=>{
-    e.preventDefault
-    modal.style.opacity=1;
-    alert('ayuda')
-
-})*/
