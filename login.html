@@ -32,30 +32,32 @@
             </div>
 
 
-            <div class="datos-login">
+            <form class="datos-login">
                 <div class="login-group">
                     <label for="usuario" class="login-label">Usuario</label>
-                    <input type="text" name="usuario" id="usuario" class="usuario">
+                    <input type="text" name="usuario" id="usuario" class="usuario" required>
                 </div>
 
                 <div class="login-group">
                     <label for="password" class="login-label">Contraseña</label>
-                    <input type="password" name="password" id="password" class="password">
+                    <input type="password" name="password" id="password" class="password" required>
                 </div>
 
                 <div class="login-group">
                     <a href="" class="forgot">¿Olvidaste tu contraseña?</a>
                 </div>
 
-                <div class="button-login-ing">
-                    <a href="dashboard.html" class="button-log-ingresar">Ingresar</a>
+                <div class="button-login-ing"> <!--onclick="validar()"-->
+                    <input type="button" class="button-log-ingresar" id="button-log-ingresar"  value="Ingresar" ></input>
                 </div>
-            </div>
+            </form>
         </div>
 
     </div>
 
-    <script src="js/script.js"></script>
+
+
+    <script src="js/script-login.js"></script>
 </body>
 
 </html>
