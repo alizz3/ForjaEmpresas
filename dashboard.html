@@ -8,7 +8,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard</title>
     <link rel="shotcut icon" href="img/forja 1.svg">
+
     <link rel="stylesheet" href="css/normalize.css" type="text/css">
+
     <link rel="stylesheet" href="css/estilos.css">
     <script src="https://kit.fontawesome.com/d4252d30df.js" crossorigin="anonymous"></script>
 </head>
@@ -27,29 +29,35 @@
 
         <div class="container-buttons-db">
             <div class="buttons--db">
-                <a href="pacientes.html" class="btn-Pacientes"><i class="fa-solid fa-users"></i><h4>pacientes</h4></a>
+                <a href="pacientes.html" class="btn-Pacientes"><i class="fa-solid fa-users"></i>
+                    <h4>pacientes</h4>
+                </a>
             </div>
 
             <div class="buttons--db">
-                <a href="" class="btn-vacunacion"><i class="fa-solid fa-syringe"></i><h4>vacunación</h4></a>
+                <a href="" class="btn-vacunacion"><i class="fa-solid fa-syringe"></i>
+                    <h4>vacunación</h4>
+                </a>
             </div>
             <div class="buttons--db">
-                <a href="login.html" class="btn-cerrar-ses"><i class="fa-solid fa-power-off"></i><h4>cerrar sesión</h4></a>
+                <a href="login.html" class="btn-cerrar-ses"><i class="fa-solid fa-power-off"></i>
+                    <h4>cerrar sesión</h4>
+                </a>
             </div>
         </div>
-        
+
     </div>
 
 
     <!-- lado derecho -->
 
-        <!-- Usuario -->
+    <!-- Usuario -->
 
     <div id="bienvenidos">
         <img src="img/backgrounddashboard.png" alt="" class="img-dashboard">
-        
-        
-        
+
+
+
         <div class="derecha">
             <div class="container-button-user-db">
                 <div class="button-user-db">
@@ -71,27 +79,144 @@
             <div class="container-digite">
                 <section class="digite">
                     <div class="digite-group">
-                        <label for="Documento" class="digite-label"></label>
-                        <input type="number" name="Documento" id="Documento" placeholder="Digite el numero de Documento" class="digite-input">
+                        <label for="documento"></label>
+                        <input type="number" name="documento" class="digite-input documento" id="documento"
+                            placeholder="Digite el numero de documento">
                     </div>
 
 
                     <div class="botones-db">
-                        <a href="dashboard-user.html" class="b-search-db"><i class="fa-solid fa-magnifying-glass"></i></a>
-                        <a href="" class="b-return-db"><i class="fa-solid fa-rotate-right"></i></a>
-                        
+                        <a href="" class="buscar_db b-search-db"><i
+                                class="buscar_db fa-solid fa-magnifying-glass"></i></a>
+                        <a href="dashboard.html" class="b-return-db"><i class="fa-solid fa-rotate-right"></i></a>
+
                     </div>
                 </section>
             </div>
-            
+
             <!--Barra Forja-->
             <div class="footer-db">
-            <img src="img/barra.jpeg" alt="" >
+                <img src="img/barra.jpeg" alt="">
             </div>
         </div>
     </div>
+    </div>
 
-    <script src="js/script.js"></script>
+
+
+    <div class="capa">
+        <div class="modal">
+            <section class="dashuser-logo">
+                <img src="img/0. logoforja.png" alt="">
+            </section>
+            <section class="dashuser-text">
+                <h3 class="cedula_modal"></h3>
+                <h4 class="name_modal"></h4>
+            </section>
+
+
+            <section class="tabla">
+                <table class="dosisUna" >
+                    <tr>
+                        <th>DOSIS</th>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <th>FECHA</th>
+                        <td>07-07-21</td>
+                    </tr>
+                    <tr>
+                        <th>LOTE</th>
+                        <td>C202108945</td>
+                    </tr>
+                    <tr>
+                        <th>FABRICANTE</th>
+                        <td>sinovac</td>
+                    </tr>
+                    <tr>
+                        <th>LUGAR</th>
+                        <td>Titan plaza</td>
+                    </tr>
+                </table>
+
+                <table class="dosisDos" >
+                    <tr>
+                        <th>DOSIS</th>
+                        <td>1</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <th>FECHA</th>
+                        <td>09-10-21</td>
+                        <td>17-01-22</td>
+                    </tr>
+                    <tr>
+                        <th>LOTE</th>
+                        <td>C202108945</td>
+                        <td>C202135187</td>
+                    </tr>
+                    <tr>
+                        <th>FABRICANTE</th>
+                        <td>pfizer</td>
+                        <td>pfizer</td>
+                    </tr>
+                    <tr>
+                        <th>LUGAR</th>
+                        <td>Movistar arena</td>
+                        <td>Movistar arena</td>
+                    </tr>
+                </table>
+
+                <table class="dosisTres" >
+                    <tr>
+                        <th>DOSIS</th>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <th>FECHA</th>
+                        <td>09-08-21</td>
+                        <td>27-12-21</td>
+                        <td>17-03-22</td>
+                    </tr>
+                    <tr>
+                        <th>LOTE</th>
+                        <td>C202107575</td>
+                        <td>C202755587</td>
+                        <td>C202113747</td>
+                    </tr>
+                    <tr>
+                        <th>FABRICANTE</th>
+                        <td>AstraZeneca</td>
+                        <td>AstraZeneca</td>
+                        <td>AstraZeneca</td>
+                    </tr>
+                    <tr>
+                        <th>LUGAR</th>
+                        <td>Coliseo el Tunal</td>
+                        <td>Coliseo el Tunal</td>
+                        <td>Coliseo el Tunal</td>
+                    </tr>
+                </table>
+            </section>
+
+            <h4 class="dashuser-text dosis_modal"></h4>
+
+            <div class="dashuser-buttons">
+                <a href="formulario.html" class="button-dashuser1">
+                    <h4></h4>
+                </a>
+                <a href="" class="close_db button-dashuser2">
+                    <h4>Cerrar</h4>
+                </a>
+            </div>
+
+        </div>
+    </div>
+
+
+    <script src="js/script-modal.js"></script>
 </body>
 
 </html>
