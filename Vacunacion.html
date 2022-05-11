@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es-Es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="index" autor="Aliz Mejia">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="shotcut icon" href="img/forja 1.svg">
+    <link rel="stylesheet" href="css/normalize.css" type="text/css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="https://kit.fontawesome.com/d4252d30df.js" crossorigin="anonymous"></script>
+</head>
+
+
+<body id="formulario">
+
+    <header>
+        <div class="header-pacientes">
+            <div id="header-pacientes-container">
+                <div class="logo-header-pacientes-">
+                    <img src="img/0. logoforja.png" alt="logo forja">
+                </div>
+                <div class="buttons-header-pacientes">
+                    <a href="dashboard.html" class="button-pacientes-1"><i class="fa-solid fa-house-user"></i></a>
+                    <a href="login.html" class="button-pacientes-2"><i class="fa-solid fa-power-off"></i></a>
+                </div>
+            </div>
+            <img src="img/barra.jpeg" alt="" id="barra-forja">
+        </div>
+    </header>
+
+    <main>
+        <div class="tittle-form">
+            <h2>INFORMACIÓN DEL PACIENTE</h2>
+        </div>
+
+        <div class="border-form">
+            <div class="form-container-">
+                <form action="pacientes.html" class="">
+                    <div class="form-container">
+
+                        <div class="datos-dia-form">
+                            <input required type="date" name="Date-form" id="Date-form">
+                            <input required type="number" name="n-registro-form" id="n-registro-form"
+                                placeholder=" N registro">
+                        </div>
+
+                        <div class="barra-campo-form">
+                            <i class="fa-solid fa-user iconform"></i>
+                            <h3>DATOS DEL PACIENTE</h3>
+                        </div>
+                        <div class="datos-paciente-form ">
+                            <input required type="text" name="name-form" id="name-form" placeholder="Escribe tu nombre">
+                            <input required type="number" name="n-identificacion" id="n-identificacion"
+                                placeholder="Número de identificación">
+                            <select name="t-documento-form" id="t-documento-form" required>
+                                <option value="">Tipo de documento</option>
+                                <option value="Cédula de ciudadania">Cédula de ciudadanía</option>
+                                <option value="Cédula de Extranjeria">Cédula de Extranjería</option>
+                                <option value="Tarjeta de identidad">Tarjeta de identidad</option>
+                                <option value="Registro civil">Registro civil</option>
+                                <option value="Pasaporte">Pasaporte</option>
+                            </select>
+                            <input required type="date" name="datos-date-form" id="datos-date-form">
+                            <input required type="number" name="age-form" id="age-form" placeholder="Edad">
+
+
+                            <select name="t-documento-form" id="t-documento-form" required>
+                                <option value="">EPS</option>
+                                <option value="NuevaEPS">Nueva EPS</option>
+                                <option value="Sura">Sura</option>
+                                <option value="EPS Salud Total">EPS Salud Total</option>
+                                <option value="Medimás">Medimás</option>
+                                <option value="Famisanar">Famisanar</option>
+                                <option value="Compensar">Compensar</option>
+                                <option value="Coomeva">Coomeva</option>
+                            </select>
+
+
+                        </div>
+
+
+                        <div class="barra-campo-form ">
+                            <i class="fa-solid fa-syringe"></i>
+                            <h3 class=>INFORMACIÓN DE VACUNA</h3>
+                        </div>
+
+                        <div class="informacion-contacto-form">
+                            <select name="departamentos-form" id="departamentos-form">
+                                <option value="">Sede</option>
+                                <option value="NuevaEPS">Nueva EPS</option>
+                                <option value="Sura">Sura</option>
+                                <option value="EPS Salud Total">EPS Salud Total</option>
+                                <option value="Medimás">Medimás</option>
+                                <option value="Famisanar">Famisanar</option>
+                                <option value="Compensar">Compensar</option>
+                                <option value="Coomeva">Coomeva</option>  
+                            </select>
+
+                            <select name="municipios-form" id="municipios-form" required>
+                                <option value="">Vacunador</option>
+                                <option value="Cesar Ferrer">Cesar Ferrer</option>
+                                <option value="Alejandra Torralvo">Alejandra Torralvo</option>
+                                <option value="Jimenez martinez">Jimenez martinez</option>
+                                <option value="Aliz Mejia">Aliz Mejia</option>
+                                <option value="Angela Diaz">ANGELA Diaz</option>
+                                <option value="Laura Caipa">Laura Caipa</option>
+                                <option value="Anny Espinel">Anny Espinel</option>   
+                            </select>
+
+                            <input required type="number" name="id_form" id="id_form" placeholder="Id de profesional">
+                            <select name="municipios-form" id="municipios-form" required>
+                                <option value="">Dosis</option>
+                                <option value="Primera Dosis">Primera Dosis</option>
+                                <option value="Segunda Dosis">Segunda Dosis</option>
+                                <option value="Tercera Dosis">Tercera Dosis</option>                                 
+                            </select>
+
+                            <select class="form-control" id="preexistencias" required>
+                                <option value="">Biológico</option>
+                                <option value="Pfizer">Pfizer</option>
+                                <option value="Moderna">Moderna</option>
+                                <option value="AstraZeneca">AstraZeneca</option>
+                                <option value="Janssen">Janssen</option>
+                                <option value="Sinovac">Sinovac</option>       
+                            </select>
+
+                            <input required type="number" name="celphone-form" id="celphone-form" placeholder="Celular">
+
+                            <div class="observation">
+                                <label for="observaciones"></label>
+                                <textarea rows="2" cols="30" name="observaciones" placeholder="Observaciones adicionales"></textarea></div>
+                            </div>
+
+                        </div>
+
+                        
+                        </div>
+                        <div class="button-guardar-container" id="button-guardar"><button href="pacientes.html"
+                                class="button-guardar" id="button-guardar">Guardar</button></div>
+
+                </form>
+            </div>
+        </div>
+    </main>
+
+
+    <footer>
+        <div class="footer-pacientes">
+            <div id="footer">
+                <h6>© 2022 FORJA EMPRESAS</h6>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

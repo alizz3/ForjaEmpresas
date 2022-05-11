@@ -18,16 +18,17 @@
 
     <header>
         <div class="header-pacientes">
-        <div id="header-pacientes-container">
-            <div class="logo-header-pacientes-">
-                <img src="img/0. logoforja.png" alt="logo forja">
+            <div id="header-pacientes-container">
+                <div class="logo-header-pacientes-">
+                    <img src="img/0. logoforja.png" alt="logo forja">
+                </div>
+                <div class="buttons-header-pacientes">
+                    <a href="dashboard.html" class="button-pacientes-1"><i class="fa-solid fa-house-user"></i></a>
+                    <a href="login.html" class="button-pacientes-2"><i class="fa-solid fa-power-off"></i></a>
+                </div>
             </div>
-            <div class="buttons-header-pacientes">
-                <a href="dashboard.html" class="button-pacientes-1"><i class="fa-solid fa-house-user"></i></a>
-                <a href="login.html" class="button-pacientes-2"><i class="fa-solid fa-power-off"></i></a>
-            </div>
+            <img src="img/barra.jpeg" alt="" id="barra-forja">
         </div>
-        <img src="img/barra.jpeg" alt="" id="barra-forja"> </div>
     </header>
 
     <main>
@@ -37,31 +38,33 @@
 
         <div class="border-form">
             <div class="form-container-">
-                <form action="" class="">
+                <form action="pacientes.html" class="">
                     <div class="form-container">
-                        
+
                         <div class="datos-dia-form">
-                        <input type="date" name="Date-form" id="Date-form">
-                        <input type="number" name="n-registro-form" id="n-registro-form" placeholder=" N registro">
+                            <input required type="date" name="Date-form" id="Date-form">
+                            <input required type="number" name="n-registro-form" id="n-registro-form"
+                                placeholder=" N registro">
                         </div>
-                        
+
                         <div class="barra-campo-form">
                             <i class="fa-solid fa-user iconform"></i>
-                            <h3 >DATOS DEL PACIENTE</h3>
+                            <h3>DATOS DEL PACIENTE</h3>
                         </div>
                         <div class="datos-paciente-form ">
-                            <input type="text" name="name-form" id="name-form" placeholder="Escribe tu nombre">
-                            <input type="text" name="lastname-form" id="lastname-form" placeholder="Apellido">
-                            <input type="number" name="n-identificacion" id="n-identificacion" placeholder="Número de identificación">
-                            <select name="t-documento-form" id="t-documento-form" recuired>
-                                <option value="Tipo de documento" selected>Tipo de documento</option>
-                                <option value="Cédula de ciudadania">Cédula de ciudadania</option>
-                                <option value="Cédula de Extranjeria">Cédula de Extranjeria</option>
+                            <input required type="text" name="name-form" id="name-form" placeholder="Escribe tu nombre">
+                            <input required type="text" name="lastname-form" id="lastname-form" placeholder="Apellido">
+                            <input required type="number" name="n-identificacion" id="n-identificacion"
+                                placeholder="Número de identificación">
+                            <select name="t-documento-form" id="t-documento-form" required>
+                                <option value="">Tipo de documento</option>
+                                <option value="Cédula de ciudadania">Cédula de ciudadanía</option>
+                                <option value="Cédula de Extranjeria">Cédula de Extranjería</option>
                                 <option value="Tarjeta de identidad">Tarjeta de identidad</option>
                                 <option value="Registro civil">Registro civil</option>
                                 <option value="Pasaporte">Pasaporte</option>
-                            <input type="date" name="datos-date-form" id="datos-date-form">
-                            <input type="number" name="age-form" id="age-form" placeholder="Edad">
+                                <input required type="date" name="datos-date-form" id="datos-date-form">
+                                <input required type="number" name="age-form" id="age-form" placeholder="Edad">
                         </div>
 
 
@@ -69,10 +72,10 @@
                             <i class="fa-solid fa-location-dot iconform"></i>
                             <h3 class=>INFORMACIÓN DE CONTACTO</h3>
                         </div>
-                        
+
                         <div class="informacion-contacto-form">
                             <select name="departamentos-form" id="departamentos-form">
-                                <option value="0" selected>Departamento de residencia</option>
+                                <option value="">Departamento de residencia</option>
                                 <option value="Amazonas">Amazonas</option>
                                 <option value="Antioquia">Antioquia</option>
                                 <option value="Arauca">Arauca</option>
@@ -1230,58 +1233,61 @@
                                 <option value="Zona Bananera">Zona Bananera</option>
                             </select>
 
-                            <input type="text" name="adress-form" id="adress-form" placeholder="Dirección">
-                            <input type="email" name="email-form" id="email-form" placeholder="Correo">
-                            <input type="number" name="phone-form" id="phone-form" placeholder="Teléfono Fijo">
-                            <input type="number" name="celphone-form" id="celphone-form" placeholder="Celular">
+                            <input required type="text" name="adress-form" id="adress-form" placeholder="Dirección">
+                            <input required type="email" name="email-form" id="email-form" placeholder="Correo">
+                            <input required type="number" name="phone-form" id="phone-form" placeholder="Teléfono Fijo">
+                            <input required type="number" name="celphone-form" id="celphone-form" placeholder="Celular">
                         </div>
-                        
+
                         <div class="barra-campo-form">
                             <i class="fa-solid fa-heart-pulse iconform"></i>
                             <h3>ESTADO DE SALUD</h3>
                         </div>
                         <div class="estado-salud-form">
                             <select name="preexistencias-form" id="preexistencias-form">
-                                <option value="0" selected>Preexistencias</option>
-                                <option value="Diabetis" selected>Diabetis</option>
-                                <option value="Hipertensión" selected>Hipertensión</option>
-                                <option value="triglicerios" selected>triglicerios</option>
-                                <option value="Alcoholismo" selected>Alcoholismo</option>
-                                <option value="Enfermedades huérfanas" selected>Enfermedades huérfanas</option>
-                                <option value="Enfermedades huérfanas" selected>Enfermedades huérfanas</option>
-                                <option value="0" selected>Preexistencias</option>
-
+                                <option value="">Preexistencias</option>
+                                <option value="Diabetis">Diabetis</option>
+                                <option value="Hipertensión">Hipertensión</option>
+                                <option value="triglicerios">triglicerios</option>
+                                <option value="Alcoholismo">Alcoholismo</option>
+                                <option value="Enfermedades huérfanas">Enfermedades huérfanas</option>
+                                <option value="No tiene enfermedades ">No tiene enfermedades </option>
                             </select>
                             <select name="discapacidades-form" id="discapacidades-form">
-                                <option value="0" selected>Discapacidad</option>
-                                <option value="Sordoceguera" selected>Sordoceguera</option>
-                                <option value="Discapacidad física" selected>Discapacidad física</option>
-                                <option value="Discapacidad auditiva" selected>Discapacidad auditiva</option>
-                                <option value="Discapacidad visual" selected>Discapacidad visual</option>
-                                <option value="Discapacidad intelectual" selected>Discapacidad intelectual</option>
-                                <option value="Discapacidad psicosocial (mental)" selected>Discapacidad psicosocial (mental)</option>
-                                <option value="Discapacidad múltiple" selected>Discapacidad múltiple</option>
+                                <option value="">Discapacidad</option>
+                                <option value="Sordoceguera">Sordoceguera</option>
+                                <option value="Discapacidad física">Discapacidad física</option>
+                                <option value="Discapacidad auditiva">Discapacidad auditiva</option>
+                                <option value="Discapacidad visual">Discapacidad visual</option>
+                                <option value="Discapacidad intelectual">Discapacidad intelectual</option>
+                                <option value="Discapacidad psicosocial (mental)">Discapacidad psicosocial (mental)
+                                </option>
+                                <option value="Discapacidad múltiple">Discapacidad múltiple</option>
+                                <option value="No tiene ninguna discapacidad">No tiene ninguna discapacidad</option>
                             </select>
-                            <input type="text" name="alergias-form" id="alergias-form" placeholder="Alergias">
+                            <input required type="text" name="alergias-form" id="alergias-form" placeholder="Alergias">
                         </div>
-                        
+
                         <div class="select-container-form">
-                            <label for="prueba-covid">¿El paciente se ha realizado la prueba del covid con anterioridad y
+                            <label for="prueba-covid">¿El paciente se ha realizado la prueba del covid con anterioridad
+                                y
                                 esta ha salido positiva?</label>
                             <div class="options">
-                                SI <input name="select" id="select" type="radio">
-                                NO <input name="select" id="select" type="radio">
+                                SI <input required name="select" id="select" type="radio">
+                                NO <input required name="select" id="select" type="radio">
                             </div>
                             <label for="cono">¿El paciente ha tenido un contacto estrecho o cercano con una persona
                                 confirmada o sospechosa COVID-19 en los últimos 14 días?</label>
                             <div class="options">
-                                SI <input name="select" id="select" type="radio">
-                                NO <input name="select" id="select" type="radio">
+                                SI <input required name="select-2" id="select-2" type="radio">
+                                NO <input required name="select-2" id="select-2" type="radio">
                             </div>
                         </div>
+                        <div class="button-guardar-container" id="button-guardar"><button href="pacientes.html"
+                                class="button-guardar" id="button-guardar">Guardar</button></div>
+
                 </form>
             </div>
-            <div class="button-guardar-container"><a href="pacientes.html" class="button-guardar">Guardar</a></div>
         </div>
     </main>
 

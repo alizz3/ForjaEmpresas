@@ -391,6 +391,7 @@
 
 .log-login {
     height: 900%;
+    min-width: 384px;
 }
 
 .forja-login {
@@ -426,6 +427,17 @@
     width: 100%;
     height: 70%;
 }
+
+.credenciales{
+    background-color: #a4010100;
+    justify-content: space-between;
+    height: 60px;
+}
+
+.credenciales h3{
+    color: var(--DarkOrange-color);
+}
+
 
 .login-group {
     display: flex;
@@ -1113,6 +1125,28 @@ table {
 
 
 /*css for formulario.html*/
+#n-registro-form{
+    margin-top: 5px;
+}
+.observation{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+    margin: 10px;
+}
+
+.observation textarea{
+    border: 2px solid var(--blue-color);
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+}
+
+textarea:focus{
+    outline: none;
+}
+
 
 .tittle-form {
     display: flex;
