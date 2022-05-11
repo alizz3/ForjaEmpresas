@@ -60,7 +60,7 @@ openModal.addEventListener('click', function (e) {
         tabla.classList.remove('table-hidde')
 
 
-        dosisDos.style.display = 'flex'
+        dosisDos.style.display = 'initial'
         dosisUna.style.display = 'none';
         dosisTres.style.display = 'none';
 
@@ -89,6 +89,9 @@ openModal.addEventListener('click', function (e) {
     }
 
     else {
+        
+
+
         capa.style.opacity = "1";
         modal.classList.add('modal_Show')
 
@@ -103,6 +106,14 @@ openModal.addEventListener('click', function (e) {
         tabla.classList.remove('table-show')
 
         console.log(cedula)
+
+        document.querySelector(".b-return-db").addEventListener('click'.guardar);
+
+        function guardar () {
+            window.alert = "index.html";
+        }
+
+
     }
 })
 
