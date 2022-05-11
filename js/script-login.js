@@ -2,6 +2,9 @@
 
 document.querySelector('#button-log-ingresar').addEventListener('click', validar);
 
+var credenciales = document.querySelector('.credenciales_error');
+
+
 function validar() {
     var usuario = document.getElementById('usuario').value;
     let password = document.getElementById('password').value;
