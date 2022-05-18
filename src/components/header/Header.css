@@ -1,0 +1,269 @@
+#header-index {
+   border-top: 0.5rem solid var(--DarkGray-color);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.header-index-container {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   width: 100%;
+}
+
+.index-head-right {
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+}
+
+.syringe{
+   width: 100%;
+   max-width: 40px;
+}
+
+.index-head-top {
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+}
+
+.head-phone,
+.head-ubication {
+   display: flex;
+   align-items: center;
+}
+
+.head-phone a,
+.head-ubication a {
+   color: var(--dark-color);
+   text-decoration: none;
+   font-size: 14px;
+}
+
+.head-phone {
+   width: 65%;
+}
+
+.head-phone a {
+   font-size: 14px;
+}
+
+.head-ubication {
+   width: 135%;
+}
+
+.button-log-iniciar,
+.button-log-mobile,
+.animate2,
+.button-log-iniciar-tablet,
+.button-log-iniciar-banner {
+   background-color: var(--blueindexbutttoms-color);
+   color: var(--white-color);
+   border-radius: 9px;
+   padding: 10px;
+   text-decoration: none;
+}
+
+.button-log-iniciar,
+.button-log-iniciar-banner {
+   display: none;
+}
+
+.button-log-mobile {
+   font-size: 100%;
+}
+
+.button-log-iniciar-tablet {
+   display: none;
+}
+
+
+
+.index-head-bottom {
+   background-image: url(./img/1.linea.png);
+   background-size: 90%;
+   background-repeat: no-repeat;
+   background-position-x: 80px;
+   background-position-y: 50%;
+   color: var(--DarkOrange-color);
+   height: 80px;
+
+}
+
+.index-head-bottom img {
+   width: 50px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.index-head-bottom {
+   display: flex;
+   align-items: center;
+   margin-left: 5%;
+}
+
+
+.index-head-left {
+   margin-top: 1%;
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-start;
+   float: left;
+   width: 90%;
+}
+
+.logo-head {
+   width: 80%;
+   max-width: 250px;
+}
+
+.head-ubication {
+   display: flex;
+   justify-content: center;
+   width: 100%;
+}
+
+.head-phone {
+   display: flex;
+   justify-content: center;
+   width: 60%;
+}
+
+
+@media screen and (min-width:768px) {
+   /*Tablet css for Index.html*/
+
+   /*header index.html*/
+   .logo-head {
+      width: 30%;
+   }
+
+   .button-log-iniciar-tablet {
+      display: initial;
+   }
+
+   .button-log-mobile {
+      display: none;
+   }
+
+   .logo-head {
+      width: 300px;
+   }
+
+   .button-index-head {
+      display: none;
+   }
+
+   .index-head-top {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+   }
+
+   .syringe{
+      max-width: 50px;
+   }   
+
+   .button-index-head {
+      display: none;
+   }
+
+   .button-index-head {
+      display: none;
+   }
+
+   .button-log-iniciar-banner {
+      display: initial;
+   }
+}
+
+@media screen and (min-width: 1024px) {
+
+   /*Desktopcss for Index.html*/
+
+   /*header index.html*/
+   .header-index-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      width: 95%;
+      margin-top: 1%;
+   }
+
+   .index-head-right {
+      width: 70%;
+      float: right;
+      display: flex;
+      flex-direction: column;
+   }
+
+   .index-head-top {
+      display: flex;
+      align-items: center;
+      display: flex;
+   }
+
+   .head-phone,
+   .head-ubication {
+      display: flex;
+      align-items: center;
+      width: auto;
+   }
+
+   .head-phone a,
+   .head-ubication a {
+      color: var(--dark-color);
+      text-decoration: none;
+   }
+
+   .button-log-iniciar {
+      display: initial;
+   }
+
+   .button-index-head {
+      display: initial;
+      width: auto;
+
+   }
+
+   .button-log-mobile {
+      display: none;
+   }
+
+   .button-log-iniciar-tablet {
+      display: none;
+   }
+
+   .button-index-head {
+      margin-left: 100px;
+   }
+
+   .index-head-bottom {
+      background-image: url(./img/1.linea.png);
+      background-size: 90%;
+      background-repeat: no-repeat;
+      background-position-x: 100px;
+      background-position-y: 50%;
+      color: var(--DarkOrange-color);
+      height: 80px;
+
+   }
+
+   .index-head-bottom img {
+      width: 50px;
+      display: flex;
+      align-items: flex-start;
+   }
+
+   .index-head-left {
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+      float: left;
+      width: 30%;
+   }
+}
