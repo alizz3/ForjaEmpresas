@@ -1,0 +1,12 @@
+#footer {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 20px 0px;
+    background-color: var(--black-color);
+
+}
+
+#footer h6 {
+    color: var(--white-color);
+    font-weight: 300;
+}
