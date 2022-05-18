@@ -1,0 +1,387 @@
+/*Banner*/
+.banner {
+    background-image: url(./img/2.medico.png);
+    background-size: cover;
+    background-position-x: right;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.banner h2 {
+    color: var(--Orange-color);
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.banner h1 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin: 2%;
+}
+
+.text-banner-index {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    padding: 5% 0;
+    margin: 5% 0;
+}
+
+#barra-forja {
+    margin-top: -4px;
+    margin-bottom: -4px;
+    width: 100%;
+    height: 1.5rem;
+}
+
+
+/*articulos*/
+/*contenedor*/
+#information-index {
+    background-image: url(./img/covid-backgroung.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+    margin-top: -10px;
+}
+
+.tittle-information-1,
+.tittle-information-2 {
+    display: flex;
+    align-items: center;
+    color: var(--blueindexbutttoms-color);
+}
+
+.tittle-information-1 h2,
+.tittle-information-2 h2 {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.tittle-information-1 img {
+    width: 2rem;
+    margin-right: 10px;
+}
+
+.tittle-information-2 img {
+    width: 2rem;
+    padding-bottom: 10;
+}
+
+/*izquierda*/
+.information-left {
+    width: 50%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 6%;
+}
+
+.animate2 {
+    display: none;
+}
+
+.sintomas-index {
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+}
+
+.sintomas-index ul {
+    list-style-image: url(./img/6.check.svg);
+    font-weight: 200;
+
+}
+
+/*Derecha*/
+.information-right {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    float: right;
+}
+
+.hacer-index p {
+    font-size: 1rem;
+    font-weight: 200;
+    margin-top: 10px;
+    line-height: 170%;
+
+}
+
+.article-2,
+.article-1 {
+    width: 100%;
+}
+
+.oms-curso {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.oms-curso img {
+    width: 100px;
+}
+
+.oms-curso a {
+    text-decoration: none;
+    color: var(--blueindexbutttoms-color);
+    font-weight: 500;
+    margin-bottom: 10px
+}
+
+
+
+
+/*other information*/
+#other-information-index {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.other-information-1,
+.other-information-2,
+.other-information-3,
+.other-information-4,
+.other-information-5 {
+    text-decoration: none;
+    background-color: var(--darkBlue-color);
+    color: var(--white-color);
+    font-size: 0.7rem;
+    padding: 10px 0 10px 5px;
+}
+
+.other-information-2,
+.other-information-3,
+.other-information-4,
+.other-information-5 {
+    border-top: var(--DarkGray-color) solid 10px;
+}
+
+
+@media screen and (min-width:768px) {
+    .button-log-iniciar-banner {
+        display: initial;
+    }
+
+
+    /*banner*/
+    .banner {
+        background-position-x: right;
+
+    }
+
+
+    .banner h2 {
+
+        font-size: 2rem;
+        font-weight: 400;
+    }
+
+    .banner h1 {
+        font-size: 3rem;
+        font-weight: 400;
+    }
+
+    .text-banner-index {
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 60%;
+    }
+
+    #barra-forja {
+        height: 2.5rem;
+    }
+
+
+
+    /*articulos*/
+    #information-index {
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .information-left,
+    .information-right {
+        margin: 0.5rem;
+    }
+
+    .other-information-1,
+    .other-information-2,
+    .other-information-3,
+    .other-information-4,
+    .other-information-5 {
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    /*Banner*/
+    .banner {
+        background-image: url(./img/2.medico.png);
+        background-size: cover;
+        background-position-x: right;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .banner img {
+        width: 100%;
+    }
+
+    .banner h2 {
+        color: var(--Orange-color);
+        font-size: 3rem;
+        font-weight: 400;
+    }
+
+    .banner h1 {
+        font-size: 4rem;
+        font-weight: 400;
+    }
+
+    .text-banner-index {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 60%;
+        padding: 1%;
+    }
+
+    #barra-forja {
+        margin-top: -4px;
+        margin-bottom: -4px;
+        width: 100%;
+    }
+
+    #information-index {
+        background-color: pink;
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+
+
+    /*articulos*/
+    .tittle-information-1 h2,
+    .tittle-information-2 h2 {
+        font-size: 25px;
+        font-weight: 500;
+    }
+
+    .tittle-information-1 img {
+        width: 50px;
+        margin-right: 5%;
+    }
+
+    .tittle-information-2 img {
+        width: 60px;
+        padding-bottom: 10;
+    }
+
+    .article-2,
+    .article-1 {
+        width: 60%;
+    }
+
+    .information-left {
+        margin-bottom: 9%;
+    }
+
+
+    /*izquierda*/
+    .information-left {
+        width: 50%;
+        height: 294px;
+        float: left;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        margin-bottom: 0%;
+    }
+
+    .sintomas-index {
+        display: flex;
+        justify-content: center;
+        font-size: 19px;
+    }
+
+    .sintomas-index ul {
+        list-style-image: url(./img/6.check.svg);
+        font-weight: 200;
+
+    }
+
+    /*Derecha*/
+    .information-right {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        float: right;
+    }
+
+    .hacer-index p {
+        font-size: 19px;
+        font-weight: 200;
+        margin-top: 10px;
+    }
+
+    .article-2 {
+        width: 66%;
+    }
+
+    .oms-curso {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .oms-curso img {
+        width: 100px;
+    }
+
+    .oms-curso a {
+        text-decoration: none;
+        color: var(--blueindexbutttoms-color);
+        font-weight: 500;
+        margin-bottom: 10px
+    }
+
+    
+    .sintomas-index,
+    .hacer-index {
+        font-size: 1.2rem;
+    }
+
+    .tittle-information-1 h2,
+    .tittle-information-2 h2 {
+        font-size: 2rem;
+    }
+}
