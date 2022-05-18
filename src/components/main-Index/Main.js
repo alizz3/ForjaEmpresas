@@ -1,6 +1,6 @@
 import './Main.css'
 import barraForja from './img/barra.jpeg'
-import iconFlechaDerecha from './img/7. flechaderecha.svg'
+import iconFlechaDerecha from './img/7.flechaderecha.svg'
 import iconQuestion from './img/8.question-circle-solid.svg'
 import iconOms from './img/5.oms.png'
 

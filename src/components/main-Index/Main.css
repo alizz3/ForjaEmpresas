@@ -81,7 +81,6 @@
     padding-bottom: 10;
 }
 
-/*izquierda*/
 .information-left {
     width: 50%;
     float: left;
@@ -106,7 +105,6 @@
 
 }
 
-/*Derecha*/
 .information-right {
     width: 50%;
     display: flex;
